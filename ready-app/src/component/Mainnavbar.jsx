@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Mainnavbar() {
   return ( 
     <div className='flex items-center justify-between p-5'>
@@ -16,11 +17,11 @@ function Mainnavbar() {
          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
         <li>
-          <a href="" class=" text-white block py-2 pl-3 pr-4  md:p-0 text-lg">Home</a>
+          <a href="#" class=" text-white block py-2 pl-3 pr-4  md:p-0 text-lg">Home</a>
         </li>
         <li>
-          <a href="/Sellwithus" class=" block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0  md:p-0  text-white text-lg">Sell With Ready</a>
-        </li>
+          <a href="/" class=" block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0  md:p-0  text-white text-lg">Sell With Ready</a>
+          </li>
         <li>
           <a href="Gotomarketplace" class="block py-2 pl-3 pr-4  text-white md:hover:bg-transparent md:border-0 md:p-0 text-lg">Go To Marketplace</a>
         </li>
