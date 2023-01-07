@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 function Mainnavbar() {
@@ -17,16 +18,16 @@ function Mainnavbar() {
          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
         <li>
-          <a href="#" class=" text-white block py-2 pl-3 pr-4  md:p-0 text-lg">Home</a>
+          <Link to="/" class=" text-white block py-2 pl-3 pr-4  md:p-0 text-lg">Home</Link>
         </li>
         <li>
-          <a href="/" class=" block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0  md:p-0  text-white text-lg">Sell With Ready</a>
+          <Link to="/seller-signup" class=" block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0  md:p-0  text-white text-lg">Sell With Ready</Link>
           </li>
         <li>
-          <a href="Gotomarketplace" class="block py-2 pl-3 pr-4  text-white md:hover:bg-transparent md:border-0 md:p-0 text-lg">Go To Marketplace</a>
+          <Link to="/buyer-signup" class="block py-2 pl-3 pr-4  text-white md:hover:bg-transparent md:border-0 md:p-0 text-lg">Go To Marketplace</Link>
         </li>
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4  text-white md:hover:bg-transparent md:p-0 text-lg">About Us</a>
+          <Link to="/about" class="block py-2 pl-3 pr-4  text-white md:hover:bg-transparent md:p-0 text-lg">About Us</Link>
         </li>
       </ul>
     </div>

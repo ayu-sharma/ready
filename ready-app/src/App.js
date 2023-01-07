@@ -8,8 +8,7 @@ import Aboutus from './component/Aboutus';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -20,18 +19,15 @@ function App() {
       {/* <Home /> */}
       {/* <Signuppage /> */}
       {/* <Loginpage /> */}
-      <Registerstore />
-      {/* <Routes>
-          <Route exact path="/about">
-            <Aboutus />
-          </Route>
-          <Route exact path="/sellwithready">
-            <Registerstore />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
-      </Routes>  */}
+      {/* <Registerstore /> */}
+      <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/seller-signup" element={<Signuppage/>}/>
+          <Route exact path="/buyer-signup" element={<Signuppage/>}/>
+          <Route exact path="/register-store" element={<Registerstore/>}/>
+          <Route exact path="/about" element={<Aboutus/>}/>
+          <Route exact path="/login-page" element={<Loginpage/>}/>
+      </Routes> 
     </div>
   </Router>
   );
