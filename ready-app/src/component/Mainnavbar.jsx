@@ -21,12 +21,6 @@ function Mainnavbar() {
           <Link to="/" class=" text-white block py-2 pl-3 pr-4  md:p-0 text-lg">Home</Link>
         </li>
         <li>
-          <Link to="/seller-signup" class=" block py-2 pl-3 pr-4 md:hover:bg-transparent md:border-0  md:p-0  text-white text-lg">Sell With Ready</Link>
-          </li>
-        <li>
-          <Link to="/buyer-signup" class="block py-2 pl-3 pr-4  text-white md:hover:bg-transparent md:border-0 md:p-0 text-lg">Go To Marketplace</Link>
-        </li>
-        <li>
           <Link to="/about" class="block py-2 pl-3 pr-4  text-white md:hover:bg-transparent md:p-0 text-lg">About Us</Link>
         </li>
       </ul>
