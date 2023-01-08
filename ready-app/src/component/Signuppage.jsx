@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
  
 function Buysignup() {
   return (
-    <div className='grid grid-flow-col items-center  md:grid-cols-2 justify-center'>
+    <div className='grid grid-flow-col items-center  md:grid-cols-2 justify-center mb-48'>
       <div>
          <h1 className="hidden md:text-white md:grid md:mx-12  md:text-2xl">You are one step closer to setting up your online store! <br/>Sign up and get started.</h1>
       </div>  

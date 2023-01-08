@@ -2,7 +2,7 @@ import React from 'react'
 
 function Registerstore() {
   return (
-    <div> 
+    <div className='mb-44'> 
         <h1 className='text-white mx-20 text-2xl'>Register your store</h1>
         <form className='drop-shadow-2xl md:flex md:flex-col bg-white rounded-xl md:mx-20 mt-14 mb-14'>
     <label className='flex flex-col mx-5 items-center'>
