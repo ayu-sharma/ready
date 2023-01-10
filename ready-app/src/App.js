@@ -6,6 +6,7 @@ import Loginpage from './component/Loginpage';
 import Registerstore from './component/Registerstore';
 import Aboutus from './component/Aboutus';
 import Footer from './component/Footer';
+import Location from './component/Location';
 import {
   BrowserRouter as Router,
   Routes,
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/register-store" element={<Registerstore/>}/>
           <Route exact path="/about" element={<Aboutus/>}/>
           <Route exact path="/login-page" element={<Loginpage/>}/>
+          <Route exact path="/location" element={<Location/>}/>
       </Routes> 
       <Footer/>
     </div>

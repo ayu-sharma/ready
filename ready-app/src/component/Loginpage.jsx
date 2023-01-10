@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Loginpage() {
   return (
@@ -12,8 +13,8 @@ function Loginpage() {
 <h4 className='md:hidden px-6 font-light'>Sign in and begin your new e-commerce experience.</h4>
   <input className='my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l' size={25} type="text" name="name" placeholder='Email' />
   <input className='my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l' size={25} type="password" placeholder="Password"></input>
-<button className='bg-[#8F00FF] text-white rounded-full px-12 py-2  hover:bg-[#661D9F] mt-4' type="submit">SIGN IN</button>
-<h6 className='font-normal text-sm pb-9 pt-2'>Not registered yet? <a className='text-blue-600' href="#">Sign Up</a></h6>
+  <Link to="/location"><button className='bg-[#8F00FF] text-white rounded-full px-12 py-2  hover:bg-[#661D9F] mt-4' type="submit">SIGN IN</button></Link>
+<h6 className='font-normal text-sm pb-9 pt-2'>Not registered yet? <a className='text-blue-600' href="/buyer-signup">Sign Up</a></h6>
 </label>
 </form>
   </div>
