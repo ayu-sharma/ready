@@ -7,6 +7,7 @@ import Registerstore from './component/Registerstore';
 import Aboutus from './component/Aboutus';
 import Footer from './component/Footer';
 import Location from './component/Location';
+import Getstarted from './component/Getstarted';
 import {
   BrowserRouter as Router,
   Routes,
@@ -26,6 +27,7 @@ function App() {
       {/* <Aboutus/> */}
       <Routes>
           <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/get-started" element={<Getstarted/>}/>
           <Route exact path="/seller-signup" element={<Signuppage/>}/>
           <Route exact path="/buyer-signup" element={<Signuppage/>}/>
           <Route exact path="/register-store" element={<Registerstore/>}/>
