@@ -1,10 +1,11 @@
 import React from 'react'
 
 function Registerstore() {
-  return (
-    <div className='mb-44'> 
+  return (<>
         <h1 className='text-white mx-20 text-2xl'>Register your store</h1>
-        <form className='drop-shadow-2xl md:flex md:flex-col bg-white rounded-xl md:mx-20 mt-14 mb-14'>
+    <div className='drop-shadow-2xl mb-44 bg-white md:mx-20 mt-14 mb-14 rounded-xl md:flex md:justify-between'> 
+        
+        <form className='md:flex md:flex-col '>
     <label className='flex flex-col mx-5 items-center'>
         <div className='flex flex-col w-full'>
         <div className='flex items-center'>
@@ -37,7 +38,15 @@ function Registerstore() {
     </div>
     </label>
     </form>
+    <form className=''>
+                    <div id="add-photos">
+                        <label for="photos"><img src="images/icons8-add-image-100(1).png" class="pict"/></label>
+                        <h1 className="add">Add Photos</h1>
+                        <input type="file" id="photos" name="photos" multiple/>
+                    </div>
+                </form>
     </div>
+    </>
   )
 }
 export default Registerstore
