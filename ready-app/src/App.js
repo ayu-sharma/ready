@@ -1,8 +1,10 @@
 import './App.css';
-import Signuppage from './component/Signuppage';
+import Sellersignuppage from './component/Sellersignuppage';
+import Buyersignuppage from './component/Buyersignuppage';
 import Home from './component/Home';
 import Mainnavbar from './component/Mainnavbar';
-import Loginpage from './component/Loginpage';
+import Buyerloginpage from './component/Buyerloginpage';
+import Sellerloginpage from './component/Sellerloginpage';
 import Registerstore from './component/Registerstore';
 import Aboutus from './component/Aboutus';
 import Footer from './component/Footer';
@@ -31,11 +33,12 @@ function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/get-started" element={<Getstarted/>}/>
           <Route exact path="/store-dashboard" element={<Storedashboard/>}/>
-          <Route exact path="/seller-signup" element={<Signuppage/>}/>
-          <Route exact path="/buyer-signup" element={<Signuppage/>}/>
+          <Route exact path="/seller-signup" element={<Sellersignuppage/>}/>
+          <Route exact path="/buyer-signup" element={<Buyersignuppage/>}/>
           <Route exact path="/register-store" element={<Registerstore/>}/>
           <Route exact path="/about" element={<Aboutus/>}/>
-          <Route exact path="/login-page" element={<Loginpage/>}/>
+          <Route exact path="/buyer-login" element={<Buyerloginpage/>}/>
+          <Route exact path="/seller-login" element={<Sellerloginpage/>}/>
           <Route exact path="/location" element={<Location/>}/>
           <Route exact path="/payment-info" element={<Paymentinfo/>}/>
       </Routes> 

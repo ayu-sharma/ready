@@ -5,7 +5,7 @@ function Loginpage() {
   return (
     <div className='grid grid-flow-col items-center  md:grid-cols-2 justify-center mb-48'>
     <div>
-       <h1 className="hidden md:text-white md:grid md:mx-12  md:text-2xl">Sign in and begin your new e-commerce experience.</h1>
+       <h1 className="hidden md:text-white md:grid md:mx-12  md:text-2xl">Sign in and continue your shopping.</h1>
     </div>  
   <form className='drop-shadow-2xl md:flex md:flex-col md:justify-center md:items-center bg-white rounded-xl md:mx-20 px-18 mt-14 md:w-3/4'>
 <label className='flex flex-col justify-center items-center'>
