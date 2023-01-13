@@ -27,9 +27,10 @@ function Mainnavbar() {
     </div>
           </nav>
           <div>
-          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="25" cy="25" r="25" fill="white"/>
-</svg>
+</svg> */}
+          <p className='font-semibold drop-shadow-md text-white md:text-center md:mx-20 bg-[#8f0fff] hover:bg-white hover:text-[#8f0fff] ease-in-out transition duration-200 py-2 md:px-10 rounded-full mt-1 p-8 cursor-pointer'>Login</p>
 
      </div>
         </div>

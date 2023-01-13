@@ -1,7 +1,8 @@
 import './App.css';
 import Signuppage from './component/Signuppage';
 import Home from './component/Home';
-import Mainnavbar from './component/Mainnavbar';
+import Navbarlogin from './component/Navbarlogin';
+import Navbarlogoutsell from './component/Navbarlogoutsell';
 import Loginpage from './component/Loginpage';
 import Registerstore from './component/Registerstore';
 import Aboutus from './component/Aboutus';
@@ -20,8 +21,8 @@ function App() {
   return (
   <Router>
     <div>
-      <Mainnavbar />
-      
+      <Navbarlogin />
+      {/* <Navbarlogoutsell /> */}
       <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/seller-signup" element={<Signuppage cta="You are one step closer to setting up your online store! Sign up and get started." button="/get-started" link="/seller-login"/>}/>

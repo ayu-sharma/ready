@@ -10,27 +10,27 @@ function Registerstore() {
         <div className='flex flex-col'>
         <div className='grid grid-row'>
             <h4 className=''>Store Name</h4>
-            <input className='my-3 md:my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l w-full'  type="text" name="store_name" />
+            <input className='my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full'  type="text" name="store_name" />
         </div>
         <div className='grid grid-row'>
             <h4 className=''>Owner Name</h4>
-            <input className='my-3 md:my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l w-full'  type="text" name="store_name" />
+            <input className='my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full'  type="text" name="store_name" />
         </div>
         <div className='grid grid-row'>
             <h4 className=''>GSTIN</h4>
-            <input className='my-3 md:my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l w-full'  type="text" name="store_name" />
+            <input className='my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full'  type="text" name="store_name" />
         </div>
         <div className='grid grid-row'>
             <h4 className=''>Address Line 1</h4>
-            <input className='my-3 md:my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l w-full'  type="text" name="store_name" />
+            <input className='my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full'  type="text" name="store_name" />
         </div>
         <div className='grid grid-row'>
             <h4 className=''>Address Line 2</h4>
-            <input className='my-3 md:my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l w-full'  type="text" name="store_name" />
+            <input className='my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full'  type="text" name="store_name" />
         </div>
         <div className='grid grid-row'>
             <h4 className=''>Category</h4>
-            <input className=' my-3 md:my-5 px-2 py-1 bg-[#D9D9D9] text-black border-black border-solid border rounded text-l w-full'  type="text" name="store_name" />
+            <input className=' my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full'  type="text" name="store_name" />
         </div>
         </div>
     <div>
@@ -42,8 +42,8 @@ function Registerstore() {
                     <div id="add-photos" className=''>
                         <div className=''>
                         <label for="photos"><img src="images/icons8-add-image-100(1).png" class="pict"/></label>
-                        <h1 className="add">Add Photos</h1>
-                        <input type="file" id="photos" name="photos" multiple/>
+                        <h1 className="add">Add Photo</h1>
+                        <input type="file" id="photos" name="photos"/>
                         </div>
                     </div>
                 </form>
