@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../component/aboutUsimg1.png'
-import img2 from '../component/aboutUsimg2.png'
+import img1 from '../component/Photos/aboutUsimg1.png'
+import img2 from '../component/Photos/aboutUsimg2.png'
 
 function Aboutus() {
   return (

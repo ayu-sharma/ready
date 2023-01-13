@@ -1,10 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Aboutus from './Aboutus'
+import Navbarlogin from './Navbarlogin'
 
 function Home() {
   return (
    <div> 
+    <Navbarlogin/>
    <div className='mt-10 mb-48'> 
     {/* <h1 className='text-white text-center text-9xl mt-20'>R</h1> */}
       <div className='flex flex-col justify-center items-center'>

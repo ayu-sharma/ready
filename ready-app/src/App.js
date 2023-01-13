@@ -3,6 +3,7 @@ import Signuppage from './component/Signuppage';
 import Home from './component/Home';
 import Navbarlogin from './component/Navbarlogin';
 import Navbarlogoutsell from './component/Navbarlogoutsell';
+import Navbarlogoutbuy from './component/Navbarlogoutbuy';
 import Loginpage from './component/Loginpage';
 import Registerstore from './component/Registerstore';
 import Aboutus from './component/Aboutus';
@@ -16,12 +17,12 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-
+import Ecomhome from './component/Ecomhome';
 function App() {
   return (
   <Router>
     <div>
-      <Navbarlogin />
+      {/* <Navbarlogin /> */}
       {/* <Navbarlogoutsell /> */}
       <Routes>
           <Route exact path="/" element={<Home/>}/>
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/store-dashboard" element={<Storedashboard/>}/>
           <Route exact path="/payment-info" element={<Paymentinfo/>}/>
           <Route exact path="/about" element={<Aboutus/>}/>
+          <Route exact path="/home" element={<Ecomhome/>}/>
       </Routes> 
       <Footer/>
     </div>

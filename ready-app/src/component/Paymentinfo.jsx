@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img3 from '../component/Ellipse 3.png'
+import img3 from '../component/Photos/Ellipse 3.png'
+import Navbarlogoutsell from './Navbarlogoutsell'
 
 function Paymentinfo() {
   return (
+    <>
+    <Navbarlogoutsell/>
     <div className='min-h-screen'>
             <h1 className='text-white mx-20 my-5 text-2xl'>Payment Information</h1>
         <div className='container drop-shadow bg-white mx-auto mt-14 mb-24 align-center w-10/12 md:flow-root rounded-lg flex md:block flex-col  justify-center border-2 border-slate-200'>
@@ -38,6 +41,7 @@ function Paymentinfo() {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

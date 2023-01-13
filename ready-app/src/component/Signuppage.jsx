@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbarlogin from './Navbarlogin'
  
 function Buysignup(props) {
   return (
+    <div>
+      <Navbarlogin/>
     <div className='grid grid-flow-col items-center  md:grid-cols-2 justify-center mb-48'>
       <div>
          <h1 className="hidden md:text-white md:grid md:mx-12  md:text-2xl">{props.cta}</h1>
@@ -18,6 +21,7 @@ function Buysignup(props) {
   <h6 className='font-normal text-sm pb-9 pt-2'>Already a member? <Link className='text-blue-600' to={props.link}>Log In</Link></h6>
   </label>
 </form>
+    </div>
     </div>
   )
 }

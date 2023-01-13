@@ -1,10 +1,12 @@
 import React from 'react'
-import img from '../component/getStartedimg.png'
+import img from '../component/Photos/getStartedimg.png'
 import { Link } from 'react-router-dom'
+import Navbarlogoutsell from './Navbarlogoutsell'
 
 function Getstarted() {
   return (
     <div>
+      <Navbarlogoutsell/>
       <div className='md:flex items-center'>
       <h1 className='text-white mx-20 text-2xl my-14 w-[43rem]'>Why use READY?</h1>
       <Link to="/register-store"><button className='bg-[#8F00FF] text-white rounded-full px-12 py-2 mx-20 my-5 drop-shadow hover:bg-white hover:text-[#8f0fff] ease-in-out transition duration-200' type="submit">GET STARTED</button></Link>

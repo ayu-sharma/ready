@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbarlogoutsell from './Navbarlogoutsell'
 
 function Registerstore() {
-  return (<>
+  return (
+    <>
+    <Navbarlogoutsell/>
         <h1 className='text-white mx-20 text-2xl'>Register your store</h1>
     <div className='drop-shadow-2xl mb-44 bg-white md:mx-20 py-8 mt-10 mx-10 mb-14 rounded-xl grid grid md:grid-cols-2'> 
         <form className='md:flex md:flex-col'>

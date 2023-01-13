@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbarlogin from './Navbarlogin' 
 
 function Sellerloginpage(props) {
 
   return (
+    <div>
+      <Navbarlogin/>
     <div className='grid grid-flow-col items-center  md:grid-cols-2 justify-center mb-48'>
     <div>
        <h1 className="hidden md:text-white md:grid md:mx-12  md:text-2xl">{props.cta}</h1>
@@ -18,6 +21,7 @@ function Sellerloginpage(props) {
 <h6 className='font-normal text-sm pb-9 pt-2'>Not registered yet? <a className='text-blue-600' href={props.link}>Sign Up</a></h6>
 </label>
 </form>
+  </div>
   </div>
   )
 }

@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Navbarlogoutsell() {
+function Navbarlogoutbuy() {
   return (
     <div className="flex items-center justify-between p-5">
       <nav class=" px-2 sm:px-4 py-2.5 rounded ">
@@ -47,34 +47,42 @@ function Navbarlogoutsell() {
           <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
               <Link
-                to="/store-dashboard"
+                to="/home"
                 class=" text-white block py-2 px-4 md:py-0 md:px-1 md text-lg"
               >
-                Dashboard
+                Home
               </Link>
             </li>
             <li>
               <Link
-                to="/products"
+                to="/wishlist"
                 class="block py-2 px-4  text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
               >
-                Products
+                Wishlist
               </Link>
             </li>
             <li>
               <Link
-                to="/analytics"
+                to="/cart"
                 class="block py-2 px-4 text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
               >
-                Analytics
+                Cart
               </Link>
             </li>
             <li>
               <Link
-                to="/payment-info"
+                to="/profile"
                 class="block py-2 px-4  text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
               >
-                Payments
+                Profile
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/search"
+                class="block py-2 px-4  text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
+              >
+                Search
               </Link>
             </li>
           </ul>
@@ -88,7 +96,7 @@ function Navbarlogoutsell() {
         </Link>
       </div>
     </div>
-  );
+  )
 }
 
-export default Navbarlogoutsell;
+export default Navbarlogoutbuy
