@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>READY-Just what you need</title>
+    <link rel="icon" href="" type="image/icon type">
+    <link rel="stylesheet" href="stores.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="images/Ellipse 2 (1).png" alt="">
+            </div>
+        </header>
+
+        <div class="main">
+            <img class="img-group" src="images/Group 2.png" alt="">
+        </div>
+
+        <div class="center">
+            <div class="popular-store">
+                <h1 class="head-store">Popular Stores in Location</h1>
+                <div class="card">
+                    <div class="box1">
+                        <img src="images/Rectangle 21.png" alt="" class="box-img">
+                        <p class="name">Puma</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 22.png" alt="" class="box-img">
+                        <p class="name">Croma</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 23.png" alt="" class="box-img">
+                        <p class="name">This Shop</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 24.png" alt="" class="box-img">
+                        <p class="name">Crossword</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 25.png" alt="" class="box-img">
+                        <p class="name">Daily needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="center">
+            <div class="popular-store">
+                <h1 class="head-store">Popular Categories</h1>
+                <div class="card">
+                    <div class="box1">
+                        <img src="images/Rectangle 21 (1).png" alt="" class="box-img">
+                        <p class="name">Grocery</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 22 (1).png" alt="" class="box-img">
+                        <p class="name">Apparel</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 23 (1).png" alt="" class="box-img">
+                        <p class="name">Medicines</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 24 (1).png" alt="" class="box-img">
+                        <p class="name">Books</p>
+                    </div>
+                    <div class="box1">
+                        <img src="images/Rectangle 25 (1).png" alt="" class="box-img">
+                        <p class="name">Hardware</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>

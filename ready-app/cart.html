@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>READY-Just what you need</title>
+    <link rel="icon" href="" type="image/icon type">
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="images/Ellipse 2 (1).png" alt="">
+            </div>
+        </header>
+
+        <div class="center">
+            <div class="boxe">
+                <p class="result">Showing results</p>
+                <div class="btn">
+                    <input type="text" id="shop" name="shop">
+                    <button class="search">Search</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cent">
+            <div class="cart">
+                <div class="box">
+                    <div class="box1">
+                        <img src="images/Rectangle 11.png" alt="" class="store">
+                        <div class="about">
+                            <p class="this">This Shop - Area A</p>
+                            <p class="km">1 km away <span>Delivery in 20min</span></p>
+                            <p class="star">⭐⭐⭐⭐⭐</p>
+                        </div>
+                        <div class="like">
+                            <img src="images/Rectangle 14.png" alt="" class="like-btn">
+                            <button class="see">SEE PRODUCTS</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="box1">
+                        <img src="images/Rectangle 11 (1).png" alt="" class="store">
+                        <div class="about">
+                            <p class="this">This Shop - Area B</p>
+                            <p class="km">3 km away <span>Delivery in 1 hours</span></p>
+                            <p class="star">⭐⭐⭐⭐⭐</p>
+                        </div>
+                        <div class="like">
+                            <img src="images/Rectangle 14.png" alt="" class="like-btn">
+                            <button class="see">SEE PRODUCTS</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="box1">
+                        <img src="images/Rectangle 11 (1).png" alt="" class="store">
+                        <div class="about">
+                            <p class="this">This Shop - Street 12</p>
+                            <p class="km">1.5 km away <span>Delivery in 40min</span></p>
+                            <p class="star">⭐⭐⭐⭐</p>
+                        </div>
+                        <div class="like">
+                            <img src="images/Rectangle 14.png" alt="" class="like-btn">
+                            <button class="see">SEE PRODUCTS</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="box1">
+                        <img src="images/Rectangle 11.png" alt="" class="store">
+                        <div class="about">
+                            <p class="this">This Shop - A Road</p>
+                            <p class="km">7 km away <span>Delivery in 2 hours</span></p>
+                            <p class="star">⭐⭐⭐</p>
+                        </div>
+                        <div class="like">
+                            <img src="images/Rectangle 14.png" alt="" class="like-btn">
+                            <button class="see">SEE PRODUCTS</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="box1">
+                        <img src="images/Rectangle 11.png" alt="" class="store">
+                        <div class="about">
+                            <p class="this">This Shop - Area A</p>
+                            <p class="km">600m km away <span>Delivery in 10min</span></p>
+                            <p class="star">⭐⭐⭐⭐⭐</p>
+                        </div>
+                        <div class="like">
+                            <img src="images/Rectangle 14.png" alt="" class="like-btn">
+                            <button class="see">SEE PRODUCTS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
