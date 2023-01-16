@@ -12,6 +12,7 @@ import Location from './component/Location';
 import Getstarted from './component/Getstarted';
 import Storedashboard from './component/Storedashboard';
 import Paymentinfo from './component/Paymentinfo';
+import Listedproducts from './component/Listedproducts';
 import {
   BrowserRouter as Router,
   Routes,
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/location" element={<Location/>}/>
           <Route exact path="/store-dashboard" element={<Storedashboard/>}/>
           <Route exact path="/payment-info" element={<Paymentinfo/>}/>
+          <Route exact path="/products" element={<Listedproducts/>}/>
           <Route exact path="/about" element={<Aboutus/>}/>
           <Route exact path="/home" element={<Ecomhome/>}/>
       </Routes> 
