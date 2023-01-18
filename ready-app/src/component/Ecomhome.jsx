@@ -27,7 +27,7 @@ function Ecomhome() {
           <img className='w-9/12 rounded-r-lg' src={imgcr5} alt=""/>
         </div>
         <div className='bg-white w-11/12 mx-auto rounded-lg my-14'>
-            <h1 className='font-semibold text-xl p-3 md:ml-5 md:mt-5 mx-auto'>Popular Stores</h1>
+            <h1 className='font-semibold text-xl px-3 py-6 md:ml-5 md:mt-5 mx-auto'>Popular Stores</h1>
             <div className="flex justify-around align-center py-4">
                     <div className="w-2/12 flex flex-col justify-center items-center">
                         <img className='hover:scale-105 ease-in-out transition duration-200' src={puma} alt="" />
@@ -52,27 +52,27 @@ function Ecomhome() {
                 </div>
         </div>
         <div className='bg-white w-11/12 mx-auto rounded-lg mb-24 drop-shadow-md'>
-            <h1 className='font-semibold text-xl p-3 md:ml-5 md:mt-5 mx-auto'>Popular Categories</h1>
+            <h1 className='font-semibold text-xl px-3 py-6 md:ml-5 md:mt-5 mx-auto'>Popular Categories</h1>
             <div className="flex justify-around align-center py-4">
                     <div className="w-2/12 flex flex-col justify-center items-center">
                         <img className='hover:scale-105 ease-in-out transition duration-200' src={gross} alt="" />
-                        <p className="text-sm md:text-lg">Puma</p>
+                        <p className="text-sm md:text-lg">Grocery</p>
                     </div>
                     <div className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={appar} alt="" />
-                      <p className="text-sm md:text-lg">Croma</p>
+                      <p className="text-sm md:text-lg">Apparel</p>
                     </div>
                     <div className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={med} alt="" />
-                      <p className="text-sm md:text-lg">This Shop</p>
+                      <p className="text-sm md:text-lg">Medicines</p>
                     </div>
                     <div className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={book} alt="" />
-                      <p className="text-sm md:text-lg">Crossword</p>
+                      <p className="text-sm md:text-lg">Books</p>
                     </div>
                     <div className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={hard} alt="" />
-                      <p className="text-sm md:text-lg">Daily needs</p>
+                      <p className="text-sm md:text-lg">Hardware</p>
                     </div>
                 </div>
         </div>
