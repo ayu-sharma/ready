@@ -6,14 +6,75 @@ import imgcr2 from './Photos/imgCar2.png'
 import imgcr3 from './Photos/imgCar3.png'
 import imgcr4 from './Photos/imgCar4.png'
 import imgcr5 from './Photos/imgCar5.png'
+import puma from './Photos/images/Rectangle 21.png'
+import croma from './Photos/images/Rectangle 22.png'
+import thiss from './Photos/images/Rectangle 23.png'
+import cross from './Photos/images/Rectangle 24.png'
+import daily from './Photos/images/Rectangle 25.png'
+import gross from './Photos/images/Rectangle 21 (1).png'
+import appar from './Photos/images/Rectangle 22 (1).png'
+import med from './Photos/images/Rectangle 23 (1).png'
+import book from './Photos/images/Rectangle 24 (1).png'
+import hard from './Photos/images/Rectangle 25 (1).png'
 
 function Ecomhome() {
    
   return (
-    <div>
+    <div className='min-h-screen'>
         <Navbarlogoutbuy/>
-        <div>
-            
+        <div className='bg-white drop-shadow w-11/12 flex justify-center align-center mx-auto rounded-lg mt-4'>
+          <p className='m-auto p-4 md:text-xl'>Get FLAT 50% OFF on newest arrivals</p>
+          <img className='w-9/12 rounded-r-lg' src={imgcr5} alt=""/>
+        </div>
+        <div className='bg-white w-11/12 mx-auto rounded-lg my-14'>
+            <h1 className='font-semibold text-xl p-3 md:ml-5 md:mt-5 mx-auto'>Popular Stores</h1>
+            <div className="flex justify-around align-center py-4">
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                        <img className='hover:scale-105 ease-in-out transition duration-200' src={puma} alt="" />
+                        <p className="text-sm md:text-lg">Puma</p>
+                    </div>
+                    <div  className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={croma} alt="" />
+                      <p className="text-sm md:text-lg">Croma</p>
+                    </div>
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={thiss} alt="" />
+                      <p className="text-sm md:text-lg">This Shop</p>
+                    </div>
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={cross} alt="" />
+                      <p className="text-sm md:text-lg">Crossword</p>
+                    </div>
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={daily} alt="" />
+                      <p className="text-sm md:text-lg">Daily needs</p>
+                    </div>
+                </div>
+        </div>
+        <div className='bg-white w-11/12 mx-auto rounded-lg mb-24 drop-shadow-md'>
+            <h1 className='font-semibold text-xl p-3 md:ml-5 md:mt-5 mx-auto'>Popular Categories</h1>
+            <div className="flex justify-around align-center py-4">
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                        <img className='hover:scale-105 ease-in-out transition duration-200' src={gross} alt="" />
+                        <p className="text-sm md:text-lg">Puma</p>
+                    </div>
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={appar} alt="" />
+                      <p className="text-sm md:text-lg">Croma</p>
+                    </div>
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={med} alt="" />
+                      <p className="text-sm md:text-lg">This Shop</p>
+                    </div>
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={book} alt="" />
+                      <p className="text-sm md:text-lg">Crossword</p>
+                    </div>
+                    <div className="w-2/12 flex flex-col justify-center items-center">
+                      <img className='hover:scale-105 ease-in-out transition duration-200' src={hard} alt="" />
+                      <p className="text-sm md:text-lg">Daily needs</p>
+                    </div>
+                </div>
         </div>
     </div>
   )

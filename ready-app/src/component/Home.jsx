@@ -17,8 +17,8 @@ function Home() {
       
     <p className='text-white text-center text-lg tracking-widest font-light'>Just what you need</p>
     <div className="sellbtn flex justify-center flex-col md:flex-row items-center sm:my-5">
-      <Link to="/buyer-signup"><p className='font-semibold drop-shadow-md text-white md:text-center md:mx-24 bg-[#8f0fff] hover:bg-white hover:text-[#8f0fff] ease-in-out transition duration-200 py-2 md:px-10 rounded-full mt-5 p-8 cursor-pointer'>BUY</p></Link>
-      <Link to="/seller-signup"><p className='font-semibold drop-shadow-md text-white md:text-center md:mx-24 bg-[#8f0fff] hover:bg-white hover:text-[#8f0fff] ease-in-out transition duration-200 py-2 md:px-10 rounded-full mt-5 p-8 cursor-pointer'>SELL</p></Link>
+      <Link to="/buyer-signup"><p className='font-semibold drop-shadow-md text-white md:text-center md:mx-24 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br ease-in-out transition duration-200 py-2 md:px-10 rounded-full mt-5 p-8 cursor-pointer'>BUY</p></Link>
+      <Link to="/seller-signup"><p className='font-semibold drop-shadow-md text-white md:text-center md:mx-24 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br ease-in-out transition duration-200 py-2 md:px-10 rounded-full mt-5 p-8 cursor-pointer'>SELL</p></Link>
     </div>
     </div>
     <Aboutus/>

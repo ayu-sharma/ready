@@ -13,12 +13,13 @@ import Getstarted from './component/Getstarted';
 import Storedashboard from './component/Storedashboard';
 import Paymentinfo from './component/Paymentinfo';
 import Listedproducts from './component/Listedproducts';
+import Analytics from './component/Analytics';
+import Ecomhome from './component/Ecomhome';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import Ecomhome from './component/Ecomhome';
 function App() {
   return (
   <Router>
@@ -37,6 +38,7 @@ function App() {
           <Route exact path="/store-dashboard" element={<Storedashboard/>}/>
           <Route exact path="/payment-info" element={<Paymentinfo/>}/>
           <Route exact path="/products" element={<Listedproducts/>}/>
+          <Route exact path="/analytics" element={<Analytics/>}/>
           <Route exact path="/about" element={<Aboutus/>}/>
           <Route exact path="/home" element={<Ecomhome/>}/>
       </Routes> 
