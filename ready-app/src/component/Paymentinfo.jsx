@@ -9,7 +9,7 @@ function Paymentinfo() {
     <Navbarlogoutsell/>
     <div className='min-h-screen'>
             <h1 className='text-white mx-20 my-5 text-2xl'>Payment Information</h1>
-        <div className='container drop-shadow bg-white mx-auto mt-14 mb-24 align-center w-10/12 md:flow-root rounded-lg flex md:block flex-col  justify-center border-2 border-slate-200'>
+        <div className='container drop-shadow bg-white mx-auto mt-14 mb-24 align-center w-10/12 md:flow-root rounded-lg flex flex-col  justify-center border-2 border-slate-200'>
             <div className='md:flow-root md:mr-10 mt-4 mx-auto md:w-[9.5rem]'>
                 <div className='md:float-right md:absolute'>
                     <img className='w-11/12' src={img3} alt="cant show"/>
