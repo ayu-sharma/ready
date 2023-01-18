@@ -15,6 +15,8 @@ import Paymentinfo from './component/Paymentinfo';
 import Listedproducts from './component/Listedproducts';
 import Analytics from './component/Analytics';
 import Ecomhome from './component/Ecomhome';
+import Cart from './component/Cart';
+import Wishlist from './component/Wishlist';
 import {
   BrowserRouter as Router,
   Routes,
@@ -41,6 +43,8 @@ function App() {
           <Route exact path="/analytics" element={<Analytics/>}/>
           <Route exact path="/about" element={<Aboutus/>}/>
           <Route exact path="/home" element={<Ecomhome/>}/>
+          <Route exact path="/cart" element={<Cart/>}/>
+          <Route exact path="/wishlist" element={<Wishlist/>}/>
       </Routes> 
       <Footer/>
     </div>
