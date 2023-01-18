@@ -3,8 +3,9 @@ import Navbarlogoutbuy from './Navbarlogoutbuy'
 
 function Wishlist() {
   return (
-    <div>
+    <div className='text-white'>
         <Navbarlogoutbuy/>
+        dbdsbfjbsdjfbkdbfkjdbfksbdfkjbsdkjb
     </div>
   )
 }
