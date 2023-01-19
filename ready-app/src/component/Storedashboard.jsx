@@ -9,7 +9,7 @@ function Storedashboard() {
     <Navbarlogoutsell/>
     <div className='min-h-screen'>
             <h1 className='text-white mx-20 my-5 text-2xl'>Store Dashboard</h1>
-        <div className='container drop-shadow bg-white mx-auto mt-14 mb-24 align-center w-10/12 md:flow-root rounded-lg flex md:block flex-col  justify-center border-2 border-slate-200'>
+        <div className='container drop-shadow bg-white mx-auto mt-14 mb-24 align-center w-10/12 md:flow-root rounded-lg flex flex-col  justify-center border-2 border-slate-200'>
             <div className='md:flow-root md:mr-10 mt-4 mx-auto md:w-[9.5rem]'>
                 <div className='md:float-right md:absolute'>
                     <img className='w-11/12' src={img3} alt="cant show"/>
@@ -44,7 +44,7 @@ function Storedashboard() {
                 <p className='ml-4 text-[#8f0fff] font-medium'>3</p>
             </div>
             <div className='md:flow-root md:mr-10 mb-2 mx-auto'>
-                <Link to='/payment-info'><button className='drop-shadow-xl align-center md:float-right bg-[#8F00FF] text-white rounded-full px-12 py-2 hover:bg-[#661D9F] my-4 mx-4' type="submit">EDIT</button></Link>
+                <Link to='/payment-info'><button className='drop-shadow-xl align-center font-semibold md:float-right bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white rounded-full px-12 py-2 hover:bg-gradient-to-br my-4 mx-4' type="submit">Edit</button></Link>
             </div>
         </div>
     </div>

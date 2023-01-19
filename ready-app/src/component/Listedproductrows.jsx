@@ -15,8 +15,8 @@ function Listedproductrows(props) {
         </div>
         <div className='flow-root mx-auto my-auto items-center'>
           <div className='float-right relative ml-14'>
-            <Link to='/payment-info'><button className='drop-shadow-xl align-center bg-[#8F00FF] text-white rounded-full px-9 py-2 hover:bg-[#661D9F] my-2 mx-2' type="submit">DELETE</button></Link>
-            <Link to='/payment-info'><button className='drop-shadow-xl align-center bg-[#8F00FF] text-white rounded-full px-12 py-2 hover:bg-[#661D9F] my-2 mx-2' type="submit">EDIT</button></Link>
+            <Link to='/payment-info'><button className='drop-shadow-xl align-center bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br text-white rounded-full px-9 py-2 my-2 mx-2 font-semibold' type="submit">Delete</button></Link>
+            <Link to='/payment-info'><button className='drop-shadow-xl align-center bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br text-white rounded-full px-12 py-2 my-2 mx-2 font-semibold' type="submit">Edit</button></Link>
           </div>
         </div>
    </div>

@@ -36,8 +36,8 @@ function Paymentinfo() {
                 <p className='ml-4 text-[#8f0fff] font-medium'>Rs. 15,000</p>
             </div>
             <div className='md:flow-root md:mr-10 mb-2 mx-auto'>
-                <Link to='/payment-info'><button className='drop-shadow-xl align-center md:float-right bg-[#8F00FF] text-white rounded-full px-12 py-2 hover:bg-[#661D9F] my-4 mx-4' type="submit">ADD MONEY</button></Link>
-                <Link to='/payment-info'><button className='drop-shadow-xl align-center md:float-right bg-[#8F00FF] text-white rounded-full px-12 py-2 hover:bg-[#661D9F] my-4 mx-4' type="submit">EDIT</button></Link>
+                <Link to='/payment-info'><button className='drop-shadow-xl align-center md:float-right bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br text-white rounded-full px-12 py-2 my-4 mx-4 font-semibold' type="submit">Add Money</button></Link>
+                <Link to='/payment-info'><button className='drop-shadow-xl align-center md:float-right bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br text-white rounded-full px-12 py-2 my-4 mx-4 font-semibold' type="submit">Edit</button></Link>
             </div>
         </div>
     </div>

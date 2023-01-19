@@ -1,9 +1,12 @@
 import React from 'react'
 import img1 from '../component/Photos/aboutUsimg1.png'
 import img2 from '../component/Photos/aboutUsimg2.png'
+import Mainnavbar from './Navbarlogin'
 
 function Aboutus() {
   return (
+    <>
+    <Mainnavbar/>
     <div className='container drop-shadow bg-white mx-auto mt-14 mb-24 align-center w-10/12 md:flow-root rounded-lg flex flex-col items-center justify-center border-2 border-slate-200'>
       <p className='mx-10 py-5 font-semibold text-xl'>About Us</p>
       <div className='mb-10 mx-10 md:float-left md:flex md:items-center'>
@@ -15,6 +18,7 @@ function Aboutus() {
         <p className='md:w-6/12 text-lg md:float-right my-10'>Rather than waiting for your product to be delivered many days later, we ensure that it is delivered the same day of placing your order. No more hassle of tracking your shipment. Sit back and order <b>just what you need</b>.</p>
       </div>
     </div>
+    </>
   )
 }
 

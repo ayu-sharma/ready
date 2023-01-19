@@ -87,7 +87,7 @@ function Navbarlogoutbuy() {
             </li>
             <li>
               <Link
-                to="/search"
+                to='/stores'
                 className="block py-2 px-4 animate-text text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-400 to-purple-700 md:hover:bg-transparent md:py-0 md:px-1 text-lg"
               >
                 Search
@@ -104,7 +104,6 @@ function Navbarlogoutbuy() {
         </Link>
       </div>
     </div>
-        
     </>
   );
 }

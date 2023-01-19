@@ -9,7 +9,7 @@ function Getstarted() {
       <Navbarlogoutsell/>
       <div className='md:flex items-center'>
       <h1 className='text-white mx-20 text-2xl my-14 w-[43rem]'>Why use READY?</h1>
-      <Link to="/register-store"><button className='text-white rounded-full px-12 py-2 mx-20 my-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br' type="submit">GET STARTED</button></Link>
+      <Link to="/register-store"><button className='text-white rounded-full px-12 py-2 mx-20 my-5 drop-shadow bg-gradient-to-r from-purple-500 font-semibold via-purple-600 to-purple-700 hover:bg-gradient-to-br' type="submit">Get Started</button></Link>
       </div>
         <div className='md:flex md:items-center my-14'>
             <p className='text-white mx-20 text-lg md:w-5/12 my-10'>With increasing usage of e-commerce websites, there is no reason why you shouldn't have an online store. But making your own website and drawing traffic to it is a lengthy process. Plus, it's expensive.</p>
@@ -35,7 +35,7 @@ function Getstarted() {
               <h1 className='text-xl font-semibold mb-2'>All this, only at Rs.XX99</h1>
               <p className='text-lg mt-2'>Still unsure? Don't worry. Setup your store first, pay later.</p>
             </div>
-            <Link to="/register-store"><button className='text-white rounded-full px-12 py-2 mx-auto my-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br ease-in-out transition duration-200' type="submit">GET STARTED</button></Link>
+            <Link to="/register-store"><button className='text-white rounded-full px-12 py-2 mx-auto my-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200' type="submit">Get Started</button></Link>
           </div>
     </div>
   )

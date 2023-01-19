@@ -23,6 +23,7 @@ function Ecomhome() {
   return (
     <div className='min-h-screen'>
         <Navbarlogoutbuy/>
+        <Searchbar/>
         <div className='bg-white drop-shadow w-11/12 flex justify-center align-center mx-auto rounded-lg mt-4'>
           <p className='m-auto p-4 md:text-xl'>Get FLAT 50% OFF on newest arrivals</p>
           <img className='w-9/12 rounded-r-lg' src={imgcr5} alt=""/>
