@@ -16,6 +16,7 @@ import appar from './Photos/images/Rectangle 22 (1).png'
 import med from './Photos/images/Rectangle 23 (1).png'
 import book from './Photos/images/Rectangle 24 (1).png'
 import hard from './Photos/images/Rectangle 25 (1).png'
+import Searchbar from './Searchbar'
 
 function Ecomhome() {
    

@@ -18,6 +18,7 @@ import Ecomhome from './component/Ecomhome';
 import Cart from './component/Cart';
 import Wishlist from './component/Wishlist';
 import Profile from './component/Profile';
+import Searchbar from './component/Searchbar';
 import {
   BrowserRouter as Router,
   Routes,
@@ -47,6 +48,7 @@ function App() {
           <Route exact path="/cart" element={<Cart/>}/>
           <Route exact path="/wishlist" element={<Wishlist/>}/>
           <Route exact path="/profile" element={<Profile/>}/>
+          <Route exact path="/search" element={<Searchbar/>}/>
       </Routes> 
       <Footer/>
     </div>
