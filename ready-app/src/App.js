@@ -20,6 +20,7 @@ import Wishlist from './component/Wishlist';
 import Profile from './component/Profile';
 import Searchbar from './component/Searchbar';
 import Searchresult from './component/Searchresult';
+import Product from './component/Product';
 import {
   BrowserRouter as Router,
   Routes,
@@ -50,6 +51,7 @@ function App() {
           <Route exact path="/wishlist" element={<Wishlist/>}/>
           <Route exact path="/profile" element={<Profile/>}/>
           <Route exact path="/stores" element={<Searchresult/>}/>
+          <Route exact path="/product" element={<Product/>}/>
       </Routes> 
       <Footer/>
     </div>

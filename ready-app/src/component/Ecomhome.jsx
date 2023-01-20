@@ -24,8 +24,8 @@ function Ecomhome() {
     <div className='min-h-screen'>
         <Navbarlogoutbuy/>
         <Searchbar/>
-        <div className='bg-white drop-shadow w-11/12 flex justify-center align-center mx-auto rounded-lg mt-4'>
-          <p className='m-auto p-4 md:text-xl'>Get FLAT 50% OFF on newest arrivals</p>
+        <div className='bg-gradient-to-r from-purple-600 via-purple-500 to-purple-300 h-[17.5rem]  drop-shadow w-11/12 flex justify-center align-center mx-auto rounded-lg mt-4'>
+          <p className='m-auto px-8 text-white md:text-xl font-semibold'>Get FLAT 50% OFF on newest arrivals</p>
           <img className='w-9/12 rounded-r-lg' src={imgcr5} alt=""/>
         </div>
         <div className='bg-white w-11/12 mx-auto rounded-lg my-14'>

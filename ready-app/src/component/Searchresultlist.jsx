@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img2 from "./Photos/images/Rectangle 14.png";
 
 function Searchresultlist(props) {
@@ -28,9 +29,10 @@ function Searchresultlist(props) {
                 alt=""
                 className="cursor-pointer rounded-xl m-2"
               />
-              <button className="text-white font-medium rounded-xl px-10 py-2 m-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br">
+              <Link to='/product'><button className="text-white font-medium rounded-xl px-10 py-2 m-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br">
                 See Products
               </button>
+              </Link>
             </div>
           </div>
         </div>
