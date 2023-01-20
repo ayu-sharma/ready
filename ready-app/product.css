@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 1.6rem;
+    height: 1.6rem;
+    background: #000000;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 160vh;
+    background: linear-gradient(180deg, #000000 35.82%, #A32EFF 100%);
+    z-index: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4.3rem;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.6s;
+    padding-left: 4rem;
+    z-index: 9999;
+    color: #fff;
+}
+
+header.sticky {
+    padding-top: 2rem;
+    background: #ffffff;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul li {
+    padding-left: 2rem;
+    padding-right: 5rem;
+    position: relative;
+}
+
+.nav-links ul li a {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+    color: #000;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 0.4rem;
+    background: #8F00FF;
+    display: block;
+    margin: auto;
+    transition: width 0.2s ease-in-out;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    right: 10rem;
+    bottom: 1rem;
+}
+
+
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 127rem;
+    height: 20rem;
+    background: #fff;
+    margin-top: 12rem;
+    border-radius: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexx {
+    display: flex;
+    justify-content: space-between;
+}
+
+.felxx1 {
+    display: flex;
+}
+
+.back {
+    font-size: 2.2rem;
+    color: #8F00FF;
+    padding: 0rem 5.1rem;
+}
+
+.para {
+    font-size: 2.1rem;
+    color: #000;
+    padding: 0rem 5rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.box1 {
+    height: 52rem;
+    width: 52rem;
+    border-radius: 2rem;
+    background: #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.shirt {
+    width: 44rem;
+}
+
+.shop {
+    background: #fff;
+    width: 54rem;
+    height: 35rem;
+    border-radius: 2rem;
+}
+
+.lop {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4rem 4rem;
+}
+
+.price {
+    color: #8F00FF;
+    font-size: 2rem;
+}
+
+.variant {
+    color: #000;
+    font-size: 2.1rem;
+    padding: 1rem 4rem;
+}
+
+.des {
+    font-size: 2rem;
+}
+
+.lorem {
+    padding: 3rem 4rem;
+    font-size: 1.5rem;
+}
+
+.var {
+    width: 48rem;
+    height: 11rem;
+    border-radius: 2rem;
+    background: #fff;
+    padding: 3rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.cart {
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    background: #aa3cff;
+    border-radius: 2rem;
+    position: relative;
+    top: 4rem;
+    border: none;
+}
+
+.boxes {
+    position: relative;
+    top: 4rem;
+}
