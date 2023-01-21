@@ -26,6 +26,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Checkout from './component/Checkout';
 function App() {
   return (
   <Router>
@@ -52,6 +53,7 @@ function App() {
           <Route exact path="/profile" element={<Profile/>}/>
           <Route exact path="/stores" element={<Searchresult/>}/>
           <Route exact path="/product" element={<Product/>}/>
+          <Route exact path="/checkout" element= {<Checkout/>}/>
       </Routes> 
       <Footer/>
     </div>

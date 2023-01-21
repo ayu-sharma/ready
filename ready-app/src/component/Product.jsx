@@ -7,14 +7,15 @@ import imgsub4 from './Photos/prodimg4.jpeg'
 import imgsub5 from './Photos/prodimg5.webp'
 import imgsub6 from './Photos/prodimg6.webp'
 import dil from "./Photos/images/Rectangle 14.png";
+import {Link} from 'react-router-dom'
 
 function Product() {
   return (
     <div className='min-h-screen'>
       <Navbarlogoutbuy/>
       <div className='bg-purple-50 w-11/12 rounded-xl mx-auto px-10 py-3 mb-4'>
-        <div className='md:flex flex-col'>
-          <div className='md:flex md:justify-between my-3'>
+        <div className='lg:flex flex-col'>
+          <div className='lg:flex lg:justify-between my-3'>
             <p className='font-semibold text-lg'>Showing</p>
             <p className='font-medium text-lg text-[#8f0fff]'>Product 1</p>
             <p className='text-lg'>Price <b>Rs.1500</b></p>
@@ -30,8 +31,8 @@ function Product() {
           </div>
         </div>
       </div>
-      <div className='md:flex mb-14 mx-auto'>
-        <div className='bg-white py-5 px-5 rounded-xl md:ml-14 md:mr-7 mx-5 mb-4'>
+      <div className='lg:flex mb-14 mx-auto'>
+        <div className='bg-white py-5 px-5 rounded-xl lg:ml-14 lg:mr-7 mx-5 mb-4'>
           <img className='flex rounded mx-auto' src={imgmain} alt=""/>
           <div className='flex justify-around mb-2 mt-4'>
             <img className='h-[4rem] border-2 border-purple-500 rounded cursor-pointer hover:opacity-90' src={imgmain} alt="" />
@@ -42,7 +43,7 @@ function Product() {
             <img className='h-[4rem] rounded cursor-pointer hover:opacity-80' src={imgsub6} alt="" />
           </div>
         </div>
-        <div className='mx-5 md:mr-14 md:ml-7 md:w-6/12'>
+        <div className='mx-5 lg:mr-14 lg:ml-7 md:w-6/12'>
           <div className='bg-white p-5 mx-auto rounded-xl mb-4'>
             <div className='flex justify-between'>
               <h1 className='text-[#8f0fff] font-semibold text-xl'>PRODUCT 1</h1>
@@ -79,7 +80,7 @@ function Product() {
             </div>
           </div>
           <div className='flex justify-around md:my-12 my-4'>
-            <button className='text-white w-5/12 rounded-xl py-4 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200'>BUY</button>
+            <Link to= '/checkout'> <button className='text-white rounded-xl py-4 px-8 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200'>BUY</button></Link>
             <button className='text-white w-6/12 rounded-xl py-4 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200'>ADD TO CART</button>
           </div>
         </div>
