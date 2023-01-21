@@ -80,8 +80,8 @@ function Product() {
             </div>
           </div>
           <div className='flex justify-around md:my-12 my-4'>
-            <Link to= '/checkout'> <button className='text-white rounded-xl py-4 px-8 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200'>BUY</button></Link>
-            <button className='text-white w-6/12 rounded-xl py-4 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200'>ADD TO CART</button>
+            <Link to='/checkout'><button className='text-white rounded-xl w-[15rem] py-4 drop-shadow text-center animate-text bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200'>BUY</button></Link>
+            <button className='text-white w-[15rem] rounded-xl py-4 drop-shadow text-center animate-text bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200'>ADD TO CART</button>
           </div>
         </div>
       </div>

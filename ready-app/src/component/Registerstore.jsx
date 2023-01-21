@@ -27,59 +27,73 @@ function Registerstore() {
           </div>
         </form>
         <form className="md:flex md:flex-col w-full">
-          <label className="flex flex-col px-2 mx-5">
-            <div className="flex flex-col">
-              <div className="grid grid-row">
-                <h4 className="">Store Name</h4>
+        <div className="md:flex mx-10 py-4">
+            <div className="md:flex md:justify-between w-full">
+                <p className="mr-4 text-lg font-semibold py-2">Store Name</p>
                 <input
-                  className="my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full"
-                  type="text"
-                  name="store_name"
+                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
+                type="text"
                 />
-              </div>
-              <div className="grid grid-row">
-                <h4 className="">Owner Name</h4>
-                <input
-                  className="my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full"
-                  type="text"
-                  name="store_name"
-                />
-              </div>
-              <div className="grid grid-row">
-                <h4 className="">GSTIN</h4>
-                <input
-                  className="my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full"
-                  type="text"
-                  name="store_name"
-                />
-              </div>
-              <div className="grid grid-row">
-                <h4 className="">Address Line 1</h4>
-                <input
-                  className="my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full"
-                  type="text"
-                  name="store_name"
-                />
-              </div>
-              <div className="grid grid-row">
-                <h4 className="">Address Line 2</h4>
-                <input
-                  className="my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full"
-                  type="text"
-                  name="store_name"
-                />
-              </div>
-              <div className="grid grid-row">
-                <h4 className="">Category</h4>
-                <input
-                  className=" my-3 md:my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l w-full"
-                  type="text"
-                  name="store_name"
-                />
-              </div>
             </div>
-            <div></div>
-          </label>
+        </div>
+        <div className="flex mx-10 py-4">
+            <div className="md:flex md:justify-between w-full">
+                <p className="mr-4 text-lg font-semibold py-2">Owner Name</p>
+                <input
+                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
+                type="text"
+                />
+            </div>
+        </div>
+        <div className="flex mx-10 py-4">
+            <div className="md:flex md:justify-between w-full">
+                <p className="mr-4 text-lg font-semibold py-2">GSTIN</p>
+                <input
+                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
+                type="text"
+                />
+            </div>
+        </div>
+        <div className="flex mx-10 py-4">
+            <div className="md:flex md:justify-between w-full">
+                <p className="mr-4 text-lg font-semibold py-2">Address Line 1</p>
+                <input
+                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
+                type="text"
+                />
+            </div>
+        </div>
+        <div className="flex mx-10 py-4">
+            <div className="md:flex md:justify-between w-full">
+                <p className="mr-4 text-lg font-semibold py-2">Address Line 2</p>
+                <input
+                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
+                type="text"
+                />
+            </div>
+        </div>
+        <div className="flex mx-10 py-4">
+            <div className="md:flex md:justify-between w-full">
+                <p className="mr-4 text-lg font-semibold py-2">Category</p>
+                    <select className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg" name="cars" id="cars">
+                        <option value="none">None</option>
+                        <option value="grocery">Grocery</option>
+                        <option value="apparel">Apparel</option>
+                        <option value="hardware-electronics">Hardware and Electronics</option>
+                        <option value="books">Books</option>
+                        <option value="other">Other</option>
+                    </select>
+            </div>
+        </div>
+        <div className="flex mx-10 py-4">
+            <div className="md:flex md:justify-between w-full opacity-50">
+                <p className="mr-4 text-lg font-semibold py-2">Other *</p>
+                <input
+                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
+                type="text" disabled
+                />
+            </div>
+        </div>
         </form>
 
         <Link to="/store-dashboard">

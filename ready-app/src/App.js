@@ -28,6 +28,7 @@ import {
 } from "react-router-dom";
 import Checkout from './component/Checkout';
 import Orderplaced from './component/Orderplaced';
+import Addnewproduct from './component/Addnewproduct';
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
           <Route exact path="/checkout" element= {<Checkout/>}/>
           <Route exact path="/orderplaced" element= {<Orderplaced/>}/>
           <Route exact path="/continueshop" element= {<Ecomhome/>}/>
+          <Route exact path="/add-product" element= {<Addnewproduct/>}/>
       </Routes> 
       <Footer/>
     </div>
