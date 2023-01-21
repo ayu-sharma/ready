@@ -27,6 +27,8 @@ import {
   Route
 } from "react-router-dom";
 import Checkout from './component/Checkout';
+import Orderplaced from './component/Orderplaced';
+
 function App() {
   return (
   <Router>
@@ -54,6 +56,8 @@ function App() {
           <Route exact path="/stores" element={<Searchresult/>}/>
           <Route exact path="/product" element={<Product/>}/>
           <Route exact path="/checkout" element= {<Checkout/>}/>
+          <Route exact path="/orderplaced" element= {<Orderplaced/>}/>
+          <Route exact path="/continueshop" element= {<Ecomhome/>}/>
       </Routes> 
       <Footer/>
     </div>
