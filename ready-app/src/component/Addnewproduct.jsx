@@ -10,7 +10,7 @@ function Addnewproduct() {
       <Navbarlogoutsell />
       <h1 className="text-white mx-20 my-5 text-2xl">Add New Product</h1>
       <div className="container drop-shadow bg-white mx-auto mt-14 mb-24 align-center w-10/12 md:flow-root rounded-lg flex flex-col  justify-center border-2 border-slate-200">
-      <form className="">
+      <form className="flex justify-center">
           <div className="items-center flex flex-col cursor-pointer my-6">
             <img className="w-[6rem] rounded-full" src={image} alt="" />
             <label class="block">
