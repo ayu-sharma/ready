@@ -15,8 +15,8 @@ function Sellerloginpage(props) {
 <label className='flex flex-col justify-center items-center'>
 <h3 className='text-black pt-5 pb-4 mt-5 text-xl font-medium'>Sign In</h3>
 <h4 className='md:hidden px-6 font-light'>{props.cta}</h4>
-  <input className='my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l' size={25} type="text" name="name" placeholder='Email' />
-  <input className='my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l' size={25} type="password" placeholder="Password"></input>
+  <input className='my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l' size={25} type="text" name="email" id='user-email' placeholder='Email'/>
+  <input className='my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l' size={25} type="password" id='user-password' placeholder="Password"></input>
   <Link to={props.button}><button className='text-white rounded-full px-12 py-2 mx-auto my-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200' type="submit">Sign In</button></Link>
 <h6 className='font-normal text-sm pb-9 pt-2'>Not registered yet? <a className='text-blue-600' href={props.link}>Sign Up</a></h6>
 </label>
