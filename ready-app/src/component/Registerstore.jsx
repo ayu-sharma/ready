@@ -19,9 +19,9 @@ function Registerstore() {
         <form className="">
           <div className="items-center flex flex-col cursor-pointer mb-4">
             <img className="w-[6rem] rounded-full" src={image} alt="" />
-            <label class="block">
-              <span class="sr-only">Choose File</span>
-              <input type="file" onChange={changeimg} class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-purple-50 file:text-purple-700 hover:file:bg-blue-100"/>
+            <label className="block">
+              <span className="sr-only">Choose File</span>
+              <input type="file" onChange={changeimg} className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-purple-50 file:text-purple-700 hover:file:bg-blue-100"/>
             </label>
           </div>
         </form>

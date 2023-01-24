@@ -1,5 +1,5 @@
 {
-  "main": "server.js",
+  "main": "index.js",
   "name": "ready-app",
   "version": "0.1.0",
   "private": true,
@@ -24,6 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:4000",
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -6,7 +6,7 @@ function Navbarlogoutsell() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <div className="flex items-center justify-between p-5">
-      <nav class="px-2 sm:px-4 py-2.5 rounded ">
+      <nav className="px-2 sm:px-4 py-2.5 rounded ">
       <section className="MOBILE-MENU flex lg:hidden cursor-pointer">
         <svg className="HAMBURGER-ICON"
             onClick={() => setIsNavOpen((prev) => !prev)}
@@ -22,8 +22,8 @@ function Navbarlogoutsell() {
               x2="28"
               y2="2"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
             <line
               x1="2"
@@ -31,8 +31,8 @@ function Navbarlogoutsell() {
               x2="28"
               y2="12"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
             <line
               x1="2"
@@ -40,8 +40,8 @@ function Navbarlogoutsell() {
               x2="28"
               y2="22"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
           </svg>
 
@@ -80,12 +80,12 @@ function Navbarlogoutsell() {
           </div>
         </section>
 
-        <div class="w-full md:block md:w-auto" id="navbar-default">
-          <ul class="hidden lg:flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+        <div className="w-full md:block md:w-auto" id="navbar-default">
+          <ul className="hidden lg:flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
               <Link
                 to="/store-dashboard"
-                class=" text-white block py-2 px-4 md:py-0 md:px-1 md text-lg"
+                className=" text-white block py-2 px-4 md:py-0 md:px-1 md text-lg"
               >
                 Dashboard
               </Link>
@@ -93,7 +93,7 @@ function Navbarlogoutsell() {
             <li>
               <Link
                 to="/products"
-                class="block py-2 px-4  text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
+                className="block py-2 px-4  text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
               >
                 Products
               </Link>
@@ -101,7 +101,7 @@ function Navbarlogoutsell() {
             <li>
               <Link
                 to="/analytics"
-                class="block py-2 px-4 text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
+                className="block py-2 px-4 text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
               >
                 Analytics
               </Link>
@@ -109,7 +109,7 @@ function Navbarlogoutsell() {
             <li>
               <Link
                 to="/payment-info"
-                class="block py-2 px-4  text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
+                className="block py-2 px-4  text-white md:hover:bg-transparent md:py-0 md:px-1 text-lg"
               >
                 Payments
               </Link>

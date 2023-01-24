@@ -1,9 +1,14 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useLogout } from "../hooks/useLogout";
 
 function Mainnavbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const {logout} = useLogout()
+  const handleClick = () => {
+    logout()
+  }
 
   return (
     <div className="flex items-center justify-between p-5">
@@ -23,8 +28,8 @@ function Mainnavbar() {
               x2="28"
               y2="2"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
             <line
               x1="2"
@@ -32,8 +37,8 @@ function Mainnavbar() {
               x2="28"
               y2="12"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
             <line
               x1="2"
@@ -41,8 +46,8 @@ function Mainnavbar() {
               x2="28"
               y2="22"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
           </svg>
 
@@ -75,12 +80,12 @@ function Mainnavbar() {
           </div>
         </section>
 
-        <div class="DESKTOP-MENU w-full md:block" id="navbar-default">
-          <ul class="hidden p-2 mt-2 space-x-8 lg:flex md:font-medium">
+        <div className="DESKTOP-MENU w-full md:block" id="navbar-default">
+          <ul className="hidden p-2 mt-2 space-x-8 lg:flex md:font-medium">
             <li>
               <Link
                 to="/"
-                class=" text-white block py-2 pl-3 pr-4 md:p-0 text-lg"
+                className=" text-white block py-2 pl-3 pr-4 md:p-0 text-lg"
               >
                 Home
               </Link>
@@ -88,7 +93,7 @@ function Mainnavbar() {
             <li>
               <Link
                 to="/about"
-                class="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:p-0 text-lg"
+                className="block py-2 pl-3 pr-4 text-white md:hover:bg-transparent md:p-0 text-lg"
               >
                 About Us
               </Link>
@@ -116,12 +121,13 @@ function Mainnavbar() {
       }
     `}</style>
       <div>
-        <Link
-          to="/buyer-login"
+        <p
+          // to="/buyer-login"
+          onClick={handleClick}
           className="font-semibold drop-shadow-md  text-white md:text-center right-0 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br transition duration-200 py-2 md:px-10 rounded-full mt-4 p-8 cursor-pointer"
         >
-          Login
-        </Link>
+          Logout
+        </p>
       </div>
     </div>
   );

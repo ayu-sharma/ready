@@ -24,8 +24,8 @@ function Navbarlogoutbuy() {
               x2="28"
               y2="2"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
             <line
               x1="2"
@@ -33,8 +33,8 @@ function Navbarlogoutbuy() {
               x2="28"
               y2="12"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
             <line
               x1="2"
@@ -42,8 +42,8 @@ function Navbarlogoutbuy() {
               x2="28"
               y2="22"
               stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
+              strokeWidth="3"
+              strokeLinecap="round"
             />
           </svg>
 
