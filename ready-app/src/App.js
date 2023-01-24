@@ -1,9 +1,6 @@
 import './App.css';
 import Signuppage from './component/Signuppage';
 import Home from './component/Home';
-import Navbarlogin from './component/Navbarlogin';
-import Navbarlogoutsell from './component/Navbarlogoutsell';
-import Navbarlogoutbuy from './component/Navbarlogoutbuy';
 import Loginpage from './component/Loginpage';
 import Registerstore from './component/Registerstore';
 import Aboutus from './component/Aboutus';
@@ -18,7 +15,6 @@ import Ecomhome from './component/Ecomhome';
 import Cart from './component/Cart';
 import Wishlist from './component/Wishlist';
 import Profile from './component/Profile';
-import Searchbar from './component/Searchbar';
 import Searchresult from './component/Searchresult';
 import Product from './component/Product';
 import {

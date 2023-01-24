@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Searchbar from "./Searchbar";
 
 function Navbarlogoutbuy() {
   const [isNavOpen, setIsNavOpen] = useState(false);

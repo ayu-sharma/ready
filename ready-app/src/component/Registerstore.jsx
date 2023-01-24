@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbarlogoutsell from "./Navbarlogoutsell";
-import uploading from "./Photos/uploading.png";
 
 function Registerstore() {
   const [image, setImage] = useState();

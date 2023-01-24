@@ -6,7 +6,6 @@ import imgsub3 from './Photos/prodimg3.webp'
 import imgsub4 from './Photos/prodimg4.jpeg'
 import imgsub5 from './Photos/prodimg5.webp'
 import imgsub6 from './Photos/prodimg6.webp'
-import dil from "./Photos/images/Rectangle 14.png";
 import {Link} from 'react-router-dom'
 
 function Product() {

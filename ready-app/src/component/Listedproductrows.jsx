@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import del from './Photos/delete.png'
 
 function Listedproductrows(props) {
   return (
