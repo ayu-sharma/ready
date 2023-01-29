@@ -2,12 +2,31 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbarlogoutsell from "./Navbarlogoutsell";
 
-function Registerstore() {
+function Registerstore(){
   const [image, setImage] = useState();
+  const [input, setInput] = useState({
+    storename: "",
+    ownername: "",
+    gst: "",
+    addressone: "",
+    addresstwo: "",
+    cat:"",
+    other: ""
+    });
+let name, value;
+    const handle = (e) => {
+      console.log(e)
+      name = e.target.name
+      value = e.target.value
+      
+      setInput({...input, [name]:value})
+    }
+  
 
   function changeimg(e) {
     // console.log(e.target.files)
     setImage(URL.createObjectURL(e.target.files[0]));
+  
   }
   return (
     <>
@@ -31,7 +50,8 @@ function Registerstore() {
                 <p className="mr-4 text-lg font-semibold py-2">Store Name</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text"
+                type="text" required name="storename" autoComplete="off"
+                onChange={handle} value={input.storename}
                 />
             </div>
         </div>
@@ -40,7 +60,8 @@ function Registerstore() {
                 <p className="mr-4 text-lg font-semibold py-2">Owner Name</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text"
+                type="text" required name="ownername" autoComplete="off"
+                onChange={handle} value={input.ownername}
                 />
             </div>
         </div>
@@ -49,7 +70,8 @@ function Registerstore() {
                 <p className="mr-4 text-lg font-semibold py-2">GSTIN</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text"
+                type="text" required name="gst"
+                onChange={handle} value={input.gst}
                 />
             </div>
         </div>
@@ -58,7 +80,8 @@ function Registerstore() {
                 <p className="mr-4 text-lg font-semibold py-2">Address Line 1</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text"
+                type="text" required name="addressone"
+                onChange={handle} value={input.addressone}
                 />
             </div>
         </div>
@@ -67,7 +90,8 @@ function Registerstore() {
                 <p className="mr-4 text-lg font-semibold py-2">Address Line 2</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text"
+                type="text" required name="addresstwo"
+                onChange={handle} value={input.addresstwo}
                 />
             </div>
         </div>
@@ -89,7 +113,7 @@ function Registerstore() {
                 <p className="mr-4 text-lg font-semibold py-2">Other *</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text" disabled
+                type="text" disabled 
                 />
             </div>
         </div>

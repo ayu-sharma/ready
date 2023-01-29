@@ -27,7 +27,7 @@ function Login(props) {
 <h4 className='md:hidden px-6 font-light'>{props.cta}</h4>
   <input className='my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l' size={25} type="text" name="email" id='user-email' placeholder='Email' value={email} onChange={(e => setEmail(e.target.value))}/>
   <input className='my-5 px-2 py-2 bg-[#D9D9D9] text-black shadow-inner rounded text-l' size={25} type="password" id='user-password' placeholder="Password" value={password} onChange={(e => setPassword(e.target.value))}></input>
-  <button className='text-white rounded-full px-12 py-2 mx-auto my-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200' type="submit" disabled={isLoading}>Sign In</button>
+  <Link to={props.button} className='text-white rounded-full px-12 py-2 mx-auto my-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold hover:bg-gradient-to-br ease-in-out transition duration-200' type="submit" disabled={isLoading}>Sign In</Link>
   {error && <div className='error'>{error}</div>}
 <h6 className='font-normal text-sm pb-9 pt-2'>Not registered yet? <a className='text-blue-600' href={props.link}>Sign Up</a></h6>
 </label>
