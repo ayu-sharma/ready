@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbarlogoutsell from "./Navbarlogoutsell";
 
@@ -10,9 +10,15 @@ function Registerstore(){
     gst: "",
     addressone: "",
     addresstwo: "",
-    cat:"",
+    cat:"none",
     other: ""
     });
+    const[inputEnabled, setinputEnabled] = useState(false)
+
+    useEffect(() => {
+      setinputEnabled(input.cat !== 'other');
+    }, [input]);
+
 let name, value;
     const handle = (e) => {
       console.log(e)
@@ -24,7 +30,6 @@ let name, value;
   
 
   function changeimg(e) {
-    // console.log(e.target.files)
     setImage(URL.createObjectURL(e.target.files[0]));
   
   }
@@ -98,7 +103,7 @@ let name, value;
         <div className="flex mx-10 py-4">
             <div className="md:flex md:justify-between w-full">
                 <p className="mr-4 text-lg font-semibold py-2">Category</p>
-                    <select className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg" name="cars" id="cars">
+                    <select className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg" name="cat" onChange={handle} id="cars" value={input.cat}>
                         <option value="none">None</option>
                         <option value="grocery">Grocery</option>
                         <option value="apparel">Apparel</option>
@@ -113,7 +118,7 @@ let name, value;
                 <p className="mr-4 text-lg font-semibold py-2">Other *</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text" disabled 
+                type="text" name="other" value={input.other} onChange={handle} disabled={inputEnabled}
                 />
             </div>
         </div>

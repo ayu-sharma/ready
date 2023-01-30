@@ -35,7 +35,7 @@ const signupUser = async (req, res) => {
         res.status(200).json({email, token})
     } catch (error) {
         res.status(400).json({error: error.message})
-    }
+    }  
 }
 
 module.exports = { signupUser, loginUser}
