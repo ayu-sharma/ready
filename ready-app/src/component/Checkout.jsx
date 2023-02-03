@@ -1,9 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import img5 from '../component/Photos/Ellipse 4.png'
 import Navbarlogoutbuy from './Navbarlogoutbuy'
 
 function Checkout() {
+
+    const [input, setInput] = useState({
+        checkoutaddress:""
+    });
+    let name, value;
+    const changeaddress = (e) => {
+      console.log(e)
+      name = e.target.name
+      value = e.target.value
+      
+      setInput({...input, [name]:value})
+    }
+    
   return (
     <>
     <Navbarlogoutbuy/>
@@ -26,10 +39,10 @@ function Checkout() {
     <div className='w-10/12 mx-10 py-4'>
         <div className='flex md:justify-between w-full'>
             <p className='mr-4 text-lg font-semibold'>Delivery Address</p>
-            <input className='bg-gray-200 w-10/12 rounded-lg shadow-inner px-3 text-lg' type="text" />
+            <input className='bg-gray-200 w-10/12 rounded-lg shadow-inner px-3 text-lg' type="text" name="checkoutaddress" value={input.checkoutaddress} onChange={changeaddress} />
         </div>
         <div className='flex justify-end my-2'>
-            <input className='mx-1' type="radio" name="" id="" />
+            <input className='mx-1' type="radio" />
             <p className='mx-1'>Billing address same as delivery address</p>
         </div>
     </div>

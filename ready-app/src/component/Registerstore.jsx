@@ -13,11 +13,11 @@ function Registerstore(){
     cat:"none",
     other: ""
     });
-    const[inputEnabled, setinputEnabled] = useState(false)
+    const [inputEnabled, setInputEnabled] = useState(false);
 
     useEffect(() => {
-      setinputEnabled(input.cat !== 'other');
-    }, [input]);
+      setInputEnabled(input.cat === "other") 
+},[input.cat]);
 
 let name, value;
     const handle = (e) => {
@@ -29,9 +29,12 @@ let name, value;
     }
   
 
-  function changeimg(e) {
+  const changeimg=(e)=> {
+    console.log(e)
     setImage(URL.createObjectURL(e.target.files[0]));
-  
+
+
+    
   }
   return (
     <>
@@ -40,9 +43,9 @@ let name, value;
       <h1 className="text-white mx-20 text-2xl">Register your store</h1>
       {/* <div className='drop-shadow-2xl mb-44 bg-white md:mx-20 py-8 mt-10 mx-10 rounded-xl flex flex-col justify-center'> */}
       <div className="drop-shadow-2xl mb-44 bg-white md:mx-20 py-8 mt-10 mx-10 rounded-xl flex flex-col items-center">
-        <form className="">
+        <form>
           <div className="items-center flex flex-col cursor-pointer mb-4">
-            <img className="w-[6rem] rounded-full" src={image} alt="" />
+            <img className="w-[6rem] rounded-full" name="image" src={image} alt="" />
             <label className="block">
               <span className="sr-only">Choose File</span>
               <input type="file" onChange={changeimg} className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-purple-50 file:text-purple-700 hover:file:bg-blue-100"/>
@@ -117,8 +120,8 @@ let name, value;
             <div className="md:flex md:justify-between w-full opacity-50">
                 <p className="mr-4 text-lg font-semibold py-2">Other *</p>
                 <input
-                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg"
-                type="text" name="other" value={input.other} onChange={handle} disabled={inputEnabled}
+                className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg" 
+                type="text" name="other" value={input.other} onChange={handle} disabled={!inputEnabled}
                 />
             </div>
         </div>
@@ -127,7 +130,7 @@ let name, value;
         <Link to="/store-dashboard">
           <button
             className="text-white font-semibold rounded-full px-12 py-2 mx-auto my-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br ease-in-out transition duration-200"
-            type="submit"
+            type="submit" 
           >
             Register Now
           </button>
