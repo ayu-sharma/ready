@@ -117,7 +117,7 @@ let name, value;
             </div>
         </div>
         <div className="flex mx-10 py-4">
-            <div className="md:flex md:justify-between w-full opacity-50">
+            <div className={ inputEnabled ? "md:flex md:justify-between w-full opacity-100" : "md:flex md:justify-between w-full opacity-50"}>
                 <p className="mr-4 text-lg font-semibold py-2">Other *</p>
                 <input
                 className="bg-gray-200 w-full md:w-10/12 rounded-lg shadow-inner px-3 py-2 text-lg" 
@@ -136,6 +136,9 @@ let name, value;
           </button>
         </Link>
       </div>
+      <style>
+        
+      </style>
     </>
   );
 }
