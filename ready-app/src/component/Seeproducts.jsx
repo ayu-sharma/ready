@@ -21,11 +21,11 @@ function Searchresult() {
           />
         </div>
       </div>
-        <Searchresultlist img={img1} title='This Shop - Area A' dist='1 km away' deltime='Delivery in 20 min' rating='⭐⭐⭐⭐⭐ (1423)'/>
-        <Searchresultlist img={img2} title='This Shop - Area B' dist='3 km away' deltime='Delivery in 1 hr' rating='⭐⭐⭐⭐ (300)'/>
-        <Searchresultlist img={img1} title='That Shop - Street 12' dist='1.5 km away' deltime='Delivery in 40min' rating='⭐⭐⭐⭐ (14)'/>
-        <Searchresultlist img={img2} title='This Store - A Road' dist='7 km away' deltime='Delivery in 2 hrs' rating='⭐⭐⭐ (423)'/>
-        <Searchresultlist img={img1} title='That Store - Area A' dist='600m away' deltime='Delivery in 10min' rating='⭐⭐⭐⭐ (14)'/>
+        <Searchresultlist img={img1} title='Tshirt' dist='1 km away' deltime='Delivery in 20 min' rating='⭐⭐⭐⭐⭐ (1423)' btn_text='Add To Cart'/>
+        <Searchresultlist img={img2} title='This Shop - Area B' dist='3 km away' deltime='Delivery in 1 hr' rating='⭐⭐⭐⭐ (300)' btn_text='Add To Cart'/>
+        <Searchresultlist img={img1} title='That Shop - Street 12' dist='1.5 km away' deltime='Delivery in 40min' rating='⭐⭐⭐⭐ (14)' btn_text='Add To Cart'/>
+        <Searchresultlist img={img2} title='This Store - A Road' dist='7 km away' deltime='Delivery in 2 hrs' rating='⭐⭐⭐ (423)' btn_text='Add To Cart'/>
+        <Searchresultlist img={img1} title='That Store - Area A' dist='600m away' deltime='Delivery in 10min' rating='⭐⭐⭐⭐ (14)' btn_text='Add To Cart'/>
       {/* <div className="flex justify-center align-center">
         <div className="bg-white w-11/12 mx-auto rounded-2xl">
           <div className="flex flex-row justify-between">

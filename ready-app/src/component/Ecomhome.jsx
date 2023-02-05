@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbarlogoutbuy from './Navbarlogoutbuy'
 import imgcr5 from './Photos/imgCar5.png'
 import puma from './Photos/images/Rectangle 21.png'
@@ -55,10 +56,10 @@ function Ecomhome() {
                         <img className='hover:scale-105 ease-in-out transition duration-200' src={gross} alt="" />
                         <p className="text-sm md:text-lg">Grocery</p>
                     </div>
-                    <div className="w-2/12 flex flex-col justify-center items-center">
+                    <Link to='/apparel-stores' className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={appar} alt="" />
                       <p className="text-sm md:text-lg">Apparel</p>
-                    </div>
+                    </Link>
                     <div className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={med} alt="" />
                       <p className="text-sm md:text-lg">Medicines</p>

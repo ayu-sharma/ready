@@ -15,16 +15,17 @@ import Ecomhome from './component/Ecomhome';
 import Cart from './component/Cart';
 import Wishlist from './component/Wishlist';
 import Profile from './component/Profile';
-import Searchresult from './component/Searchresult';
+import Apparelstoresresult from './component/Apparelstoresresult';
+import Seeproducts from './component/Seeproducts'
 import Product from './component/Product';
+import Checkout from './component/Checkout';
+import Orderplaced from './component/Orderplaced';
+import Addnewproduct from './component/Addnewproduct';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import Checkout from './component/Checkout';
-import Orderplaced from './component/Orderplaced';
-import Addnewproduct from './component/Addnewproduct';
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
           <Route exact path="/cart" element={<Cart/>}/>
           <Route exact path="/wishlist" element={<Wishlist/>}/>
           <Route exact path="/profile" element={<Profile/>}/>
-          <Route exact path="/stores" element={<Searchresult/>}/>
+          <Route exact path="/apparel-stores" element={<Apparelstoresresult/>}/>
+          <Route exact path="/all-products" element={<Seeproducts/>}/>
           <Route exact path="/product" element={<Product/>}/>
           <Route exact path="/checkout" element= {<Checkout/>}/>
           <Route exact path="/orderplaced" element= {<Orderplaced/>}/>
