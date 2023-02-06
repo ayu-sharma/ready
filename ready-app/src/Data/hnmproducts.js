@@ -33,7 +33,7 @@ const allproductdata = {
         },
         {
             name: 'H&M Sneakers',
-            slug: '/hnm-black-sweatshirt',
+            slug: '/hnm-sneakers',
             category: 'Shoes',
             image: img12,
             price: 'Rs. 1999',
@@ -53,7 +53,7 @@ const allproductdata = {
             brand: 'H&M',
             rating: 4,
             numReviews: 10,
-            description: 'Sneakers for women',  
+            description: 'Flannel shirt for men',  
         },
         {
             name: 'H&M Boots',

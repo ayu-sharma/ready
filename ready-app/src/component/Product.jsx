@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbarlogoutbuy from './Navbarlogoutbuy'
 import imgmain from './Photos/tshirtbg1.png'
 import imgsub2 from './Photos/prodimg2.jpeg'
@@ -9,6 +9,12 @@ import imgsub6 from './Photos/prodimg6.webp'
 import {Link} from 'react-router-dom'
 
 function Product() {
+
+  const [cart, setcart] = useState([]) 
+
+  const handleCart= () => {
+    console.log("Hello")
+  }
   return (
     <div className='min-h-screen'>
       <Navbarlogoutbuy/>
@@ -25,7 +31,7 @@ function Product() {
             <p className='font-semibold text-[#8f0fff] float-left cursor-pointer'>BACK</p>
             <div className='flex float-right space-x-12'>
               <p className='font-semibold text-[#8f0fff] cursor-pointer'>BUY</p>
-              <p className='font-semibold text-[#8f0fff] cursor-pointer'>ADD TO CART</p>
+              <p className='font-semibold text-[#8f0fff] cursor-pointer' onClick={handleCart}>ADD TO CART</p>
             </div>
           </div>
         </div>

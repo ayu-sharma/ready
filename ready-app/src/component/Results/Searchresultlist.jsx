@@ -1,8 +1,22 @@
-import React from "react";
+import React, {useState, useHistory} from "react";
 import { Link } from "react-router-dom";
 import img2 from "../Photos/images/Rectangle 14.png";
 
-function Searchresultlist(props) {
+const Searchresultlist=(props)=> {
+  const AddToCartPage = () => {
+    const [cart, setCart] = useState([]);
+    const [buttonText, setButtonText] = useState('Add to Cart');
+    const history = useHistory();
+  
+    const handleCart = item => {
+      setCart([...cart, item]);
+      setButtonText('Added to Cart');
+      console.log("Hi")
+    };
+  
+  }
+  
+  
   return (
     <div className="">
       <div className="flex justify-center align-center my-1">
@@ -39,6 +53,6 @@ function Searchresultlist(props) {
       </div>
     </div>
   );
-}
 
+}
 export default Searchresultlist;

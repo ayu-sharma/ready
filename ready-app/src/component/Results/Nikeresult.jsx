@@ -22,7 +22,7 @@ function Searchresult() {
       </div>
       {
         data.products.map(product => (
-            <Searchresultlist img={product.image} title={product.name} dist={product.price} deltime='Delivery in 30 min' rating='⭐⭐⭐⭐ (10)' btn_text='Add To Cart'/>   
+            <Searchresultlist img={product.image} title={product.name} dist={product.price} deltime='Delivery in 30 min' rating='⭐⭐⭐⭐ (10)' btn_text='Add To Cart' next={product.slug}/>   
         ))
       }
     </div>

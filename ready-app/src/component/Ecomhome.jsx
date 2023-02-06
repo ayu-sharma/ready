@@ -40,7 +40,7 @@ function Ecomhome() {
             <div className="flex justify-around align-center py-4">
             {
               data.products.map(product => (
-                  <Link to='/product' className="w-2/12 flex flex-col justify-center items-center">
+                  <Link to={product.slug} className="w-2/12 flex flex-col justify-center items-center">
                           <img className='hover:scale-105 ease-in-out transition duration-200 h-[10rem] rounded-md' src={product.image} alt={product.name} />
                           <p className="text-md">{product.name}</p>
                           <p className="font-semibold text-md">Rs.{product.price}</p>
