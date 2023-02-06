@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import { useEffect } from 'react'
 import Navbarlogoutbuy from './Navbarlogoutbuy'
 import imgcr5 from './Photos/imgCar5.png'
 import puma from './Photos/images/Rectangle 21.png'
@@ -12,12 +14,19 @@ import appar from './Photos/images/Rectangle 22 (1).png'
 import med from './Photos/images/Rectangle 23 (1).png'
 import book from './Photos/images/Rectangle 24 (1).png'
 import hard from './Photos/images/Rectangle 25 (1).png'
-import nike from './Photos/prodimg4.jpeg'
 import Searchbar from './Searchbar'
-import data from './data'
+import data from '../Data/trendingproducts'
+import axios from 'axios'
 
 function Ecomhome() {
-   
+  const [products, setProducts] = useState([]);
+  useEffect(()=>{
+    const fetchData = async () => {
+      const result = await axios.get('/api/products');
+      setProducts(result.data);
+    };
+    fetchData();
+  }, []);
   return (
     <div className='min-h-screen'>
         <Navbarlogoutbuy/>
@@ -31,7 +40,7 @@ function Ecomhome() {
             <div className="flex justify-around align-center py-4">
             {
               data.products.map(product => (
-                  <Link to={product.slug} className="w-2/12 flex flex-col justify-center items-center">
+                  <Link to='/product' className="w-2/12 flex flex-col justify-center items-center">
                           <img className='hover:scale-105 ease-in-out transition duration-200 h-[10rem] rounded-md' src={product.image} alt={product.name} />
                           <p className="text-md">{product.name}</p>
                           <p className="font-semibold text-md">Rs.{product.price}</p>
@@ -43,14 +52,14 @@ function Ecomhome() {
         <div className='bg-white w-11/12 mx-auto rounded-lg my-14'>
             <h1 className='font-semibold text-xl px-3 py-6 md:ml-5 md:mt-5 mx-auto'>Popular Stores</h1>
             <div className="flex justify-around align-center py-4">
-                    <div className="w-2/12 flex flex-col justify-center items-center">
+                    <Link to='/puma-store' className="w-2/12 flex flex-col justify-center items-center">
                         <img className='hover:scale-105 ease-in-out transition duration-200' src={puma} alt="" />
                         <p className="text-sm md:text-lg">Puma</p>
-                    </div>
-                    <div  className="w-2/12 flex flex-col justify-center items-center">
+                    </Link>
+                    <Link to='/croma-store' className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={croma} alt="" />
                       <p className="text-sm md:text-lg">Croma</p>
-                    </div>
+                    </Link>
                     <div className="w-2/12 flex flex-col justify-center items-center">
                       <img className='hover:scale-105 ease-in-out transition duration-200' src={thiss} alt="" />
                       <p className="text-sm md:text-lg">This Shop</p>

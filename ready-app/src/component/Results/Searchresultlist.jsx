@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img2 from "./Photos/images/Rectangle 14.png";
+import img2 from "../Photos/images/Rectangle 14.png";
 
 function Searchresultlist(props) {
   return (
     <div className="">
       <div className="flex justify-center align-center my-1">
         <div className="bg-white w-11/12 mx-auto rounded-2xl hover:bg-slate-100">
-          <div className="flex flex-row justify-between">
+          <Link to={props.next} className="flex flex-row justify-between cursor-pointer">
             <div className="flex md:flex-row flex-col">
               <img
                 src={props.img}
@@ -29,12 +29,12 @@ function Searchresultlist(props) {
                 alt=""
                 className="cursor-pointer rounded-xl m-2"
               />
-              <Link to='/all-products'><button className="text-white font-medium rounded-xl px-10 py-2 m-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br">
+              <Link to={props.next}><button className="text-white font-medium rounded-xl px-10 py-2 m-5 drop-shadow bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br">
                 {props.btn_text}
               </button>
               </Link>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

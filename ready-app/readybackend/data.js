@@ -1,15 +1,15 @@
-import img1 from './Photos/prodimg4.jpeg'
-import img2 from './Photos/nike-cap.webp'
-import img3 from './Photos/puma-aero13.webp'
-import img4 from './Photos/oneplus-z3.jpg'
-import img5 from './Photos/iphone-13.jpg'
-const data = {
+// import img1 from '../component/Photos/prodimg4.jpeg'
+// import img2 from '../component/Photos/nike-cap.webp'
+// import img3 from '../component/Photos/puma-aero13.webp'
+// import img4 from '../component/Photos/oneplus-z3.jpg'
+// import img5 from '../component/Photos/iphone-13.jpg'
+const allproductdata = {
     products: [
         {
             name: 'Apple iPhone 13',
             slug: '/apple-iphone-13',
-            category: 'Electronics',
-            image: img5,
+            category: 'Smartphones',
+            image: "../component/Photos/iphone-13.jpg",
             price: 70999,
             countInStock: 12,
             brand: 'Apple',
@@ -21,7 +21,7 @@ const data = {
             name: 'H&M Black T-shirt',
             slug: '/hnm-black-tshirt',
             category: 'Apparel',
-            image: img1,
+            image: '../component/Photos/prodimg4.jpeg',
             price: 999,
             countInStock: 20,
             brand: 'H&M',
@@ -33,7 +33,7 @@ const data = {
             name: 'Nike Black Cap',
             slug: '/nike-black-cap',
             category: 'Apparel',
-            image: img2,
+            image: '../component/Photos/nike-cap.webp',
             price: 399,
             countInStock: 40,
             brand: 'Nike',
@@ -44,8 +44,8 @@ const data = {
         {
             name: 'Oneplus Buds Z3',
             slug: '/oneplus-buds-z3',
-            category: 'Electronics',
-            image: img4,
+            category: 'Earphones',
+            image: '../component/Photos/oneplus-z3.jpg',
             price: 4599,
             countInStock: 25,
             brand: 'Oneplus',
@@ -57,7 +57,7 @@ const data = {
             name: 'Puma Sneakers Aero 13s',
             slug: '/puma-aero-13s',
             category: 'Apparel',
-            image: img3,
+            image: '../component/Photos/puma-aero13.webp',
             price: 2199,
             countInStock: 34,
             brand: 'Puma',
@@ -68,4 +68,4 @@ const data = {
     ]
 }
 
-export default data;
+export default allproductdata;

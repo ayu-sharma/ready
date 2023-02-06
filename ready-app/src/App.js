@@ -15,12 +15,16 @@ import Ecomhome from './component/Ecomhome';
 import Cart from './component/Cart';
 import Wishlist from './component/Wishlist';
 import Profile from './component/Profile';
-import Apparelstoresresult from './component/Apparelstoresresult';
+import Apparelstoresresult from './component/Results/Apparelstoresresult';
 import Seeproducts from './component/Seeproducts'
 import Product from './component/Product';
 import Checkout from './component/Checkout';
 import Orderplaced from './component/Orderplaced';
 import Addnewproduct from './component/Addnewproduct';
+import Pumaresult from './component/Results/Pumaresult'
+import Cromaresult from './component/Results/Cromaresult'
+import Hnmresult from './component/Results/Hnmresults'
+import Nikeresult from './component/Results/Nikeresult'
 import {
   BrowserRouter as Router,
   Routes,
@@ -52,6 +56,10 @@ function App() {
           <Route exact path="/wishlist" element={<Wishlist/>}/>
           <Route exact path="/profile" element={<Profile/>}/>
           <Route exact path="/apparel-stores" element={<Apparelstoresresult/>}/>
+          <Route exact path="/puma-store" element={<Pumaresult/>}/>
+          <Route exact path="/croma-store" element={<Cromaresult/>}/>
+          <Route exact path="/hnm-store" element={<Hnmresult/>}/>
+          <Route exact path="/nike-store" element={<Nikeresult/>}/>
           <Route exact path="/all-products" element={<Seeproducts/>}/>
           <Route exact path="/product" element={<Product/>}/>
           <Route exact path="/checkout" element= {<Checkout/>}/>

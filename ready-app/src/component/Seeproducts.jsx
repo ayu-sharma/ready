@@ -1,6 +1,6 @@
 import React from "react";
 import Navbarlogoutbuy from "./Navbarlogoutbuy";
-import Searchresultlist from "./Searchresultlist";
+import Searchresultlist from "./Results/Searchresultlist";
 import img1 from "./Photos/images/Rectangle 11.png";
 import img2 from "./Photos/images/Rectangle 11 (1).png";
 

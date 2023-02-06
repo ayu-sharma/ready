@@ -1,15 +1,15 @@
 import React from "react";
-import Navbarlogoutbuy from "./Navbarlogoutbuy";
+import Navbarlogoutbuy from "../Navbarlogoutbuy";
 import Searchresultlist from "./Searchresultlist";
-import img1 from "./Photos/images/Rectangle 11.png";
-import hnm from "./Photos/hnm logo.png"
-import sdry from "./Photos/superdry logo.png"
-import lyfstyle from "./Photos/lifestyle logo.png"
-import sstop from "./Photos/shopperstop logo.png"
-import jock from "./Photos/jockey logo.png"
-import nike from "./Photos/nike logo.png"
-import adidas from "./Photos/adidas logo.png"
-import puma from "./Photos/puma.png"
+import img1 from "../Photos/images/Rectangle 11.png";
+import hnm from "../Photos/hnm logo.png"
+import sdry from "../Photos/superdry logo.png"
+import lyfstyle from "../Photos/lifestyle logo.png"
+import sstop from "../Photos/shopperstop logo.png"
+import jock from "../Photos/jockey logo.png"
+import nike from "../Photos/nike logo.png"
+import adidas from "../Photos/adidas logo.png"
+import puma from "../Photos/puma.png"
 
 function Searchresult() {
   return (
@@ -28,14 +28,14 @@ function Searchresult() {
           />
         </div>
       </div>
-        <Searchresultlist img={hnm} title='H and M - Elgin Avenue' dist='1 km away' deltime='Delivery in 20 min' rating='⭐⭐⭐⭐⭐ (1098)' btn_text='See Products'/>
+        <Searchresultlist img={hnm} title='H and M - Elgin Avenue' dist='1 km away' deltime='Delivery in 20 min' rating='⭐⭐⭐⭐⭐ (1098)' btn_text='See Products' next='/hnm-store'/>
+        <Searchresultlist img={nike} title='Nike - Elgin Avenue' dist='1 km away' deltime='Delivery in 20min' rating='⭐⭐⭐⭐⭐ (140)' btn_text='See Products' next='/nike-store'/>
+        <Searchresultlist img={puma} title='Puma - CG Road' dist='4 km away' deltime='Delivery in 1 hr' rating='⭐⭐⭐⭐ (561)' btn_text='See Products' next='/puma-store'/>
         <Searchresultlist img={sdry} title='Superdry - North Mall' dist='3 km away' deltime='Delivery in 1 hr' rating='⭐⭐⭐⭐ (300)' btn_text='See Products'/>
         <Searchresultlist img={lyfstyle} title='Lifestyle - West Street' dist='1.5 km away' deltime='Delivery in 40min' rating='⭐⭐⭐⭐ (14)' btn_text='See Products'/>
         <Searchresultlist img={sstop} title='ShopperStop - Park Road' dist='7 km away' deltime='Delivery in 2 hrs' rating='⭐⭐⭐ (423)' btn_text='See Products'/>
         <Searchresultlist img={jock} title='Jockey - Road 12' dist='600m away' deltime='Delivery in 10min' rating='⭐⭐⭐⭐ (23)' btn_text='See Products'/>
-        <Searchresultlist img={nike} title='Nike - Elgin Avenue' dist='1 km away' deltime='Delivery in 20min' rating='⭐⭐⭐⭐⭐ (140)' btn_text='See Products'/>
         <Searchresultlist img={adidas} title='Adidas - City Centre' dist='3 km away' deltime='Delivery in 50min' rating='⭐⭐⭐ (410)' btn_text='See Products'/>
-        <Searchresultlist img={puma} title='Puma - CG Road' dist='4 km away' deltime='Delivery in 1 hr' rating='⭐⭐⭐⭐ (561)' btn_text='See Products'/>
         <Searchresultlist img={img1} title='The Linen Shop - North Mall' dist='3 km away' deltime='Delivery in 35min' rating='⭐⭐⭐⭐ (4)' btn_text='See Products'/>
       {/* <div className="flex justify-center align-center">
         <div className="bg-white w-11/12 mx-auto rounded-2xl">

@@ -1,0 +1,136 @@
+import img18 from '../component/Photos/oneplus-10.jpg'
+import img19 from '../component/Photos/oneplus-buds-pro.jpg'
+import img20 from '../component/Photos/oneplus-nord-ce.jpg'
+import img4 from '../component/Photos/oneplus-z3.jpg'
+import img5 from '../component/Photos/iphone-13.jpg'
+import img6 from '../component/Photos/macbook-air-m2.jpeg'
+import img7 from '../component/Photos/airpods.jpg'
+import img8 from '../component/Photos/iphone-14.jpg'
+import img9 from '../component/Photos/macbook-pro.jpg'
+import img10 from '../component/Photos/airpods-max.jpeg'
+const allproductdata = {
+    products: [
+        {
+            name: 'Apple iPhone 13',
+            slug: '/apple-iphone-13',
+            category: 'Smartphones',
+            image: img5,
+            price: 'Rs. 70999',
+            countInStock: 12,
+            brand: 'Apple',
+            rating: 5,
+            numReviews: 5,
+            description: 'Smartphone with iOS',  
+        },
+        {
+            name: 'Apple Macbook Air M2',
+            slug: '/apple-macbook-air-m2',
+            category: 'Laptops',
+            image: img6,
+            price: 'Rs. 110999',
+            countInStock: 10,
+            brand: 'Apple',
+            rating: 5,
+            numReviews: 7,
+            description: 'Laptop with new M2 chip',  
+        },
+        {
+            name: 'Apple Aiprods Pro',
+            slug: '/apple-airpods-pro',
+            category: 'Earphones',
+            image: img7,
+            price: 'Rs. 11999',
+            countInStock: 10,
+            brand: 'Apple',
+            rating: 4,
+            numReviews: 10,
+            description: 'Noise-cancelling earphones by Apple',  
+        },
+        {
+            name: 'Apple iPhone 14 Pro',
+            slug: '/apple-iphone-14-pro',
+            category: 'Smartphones',
+            image: img8,
+            price: 'Rs. 120999',
+            countInStock: 15,
+            brand: 'Apple',
+            rating: 5,
+            numReviews: 2,
+            description: 'New Smartphone with iOS and island notch',  
+        },
+        {
+            name: 'Apple Macbook Pro M2',
+            slug: '/apple-macbook-pro-m2',
+            category: 'Laptops',
+            image: img9,
+            price: 'Rs. 210999',
+            countInStock: 10,
+            brand: 'Apple',
+            rating: 4.5,
+            numReviews: 4,
+            description: 'Powerful Laptop with new M2 chip and large display',  
+        },
+        {
+            name: 'Apple Aiprods Max',
+            slug: '/apple-airpods-max',
+            category: 'Earphones',
+            image: img10,
+            price: 'Rs. 30999',
+            countInStock: 8,
+            brand: 'Apple',
+            rating: 4.5,
+            numReviews: 9,
+            description: 'Noise-cancelling headphones by Apple',  
+        },
+        {
+            name: 'Oneplus Buds Z3',
+            slug: '/oneplus-buds-z3',
+            category: 'Earphones',
+            image: img4,
+            price: 'Rs. 4599',
+            countInStock: 25,
+            brand: 'Oneplus',
+            rating: 4.5,
+            numReviews: 10,
+            description: 'Noise-cancelling earbuds',  
+        },
+        {
+            name: 'Oneplus 10',
+            slug: '/oneplus-10',
+            category: 'Smartphones',
+            image: img18,
+            price: 'Rs. 40999',
+            countInStock: 20,
+            brand: 'Oneplus',
+            rating: 4.5,
+            numReviews: 10,
+            description: 'Superfast smartphone with Android 12',
+        },
+        {
+            name: 'Oneplus Buds Pro',
+            slug: '/oneplus-buds-pro',
+            category: 'Earphones',
+            image: img19,
+            price: 'Rs. 9999',
+            countInStock: 20,
+            brand: 'Oneplus',
+            rating: 4.5,
+            numReviews: 10,
+            description: 'Premium Noise-cancelling earbuds',
+        },
+        {
+            name: 'Oneplus Nord CE 2 Lite',
+            slug: '/oneplus-nord-ce-2-lite',
+            category: 'Smartphones',
+            image: img20,
+            price: 'Rs. 18999',
+            countInStock: 20,
+            brand: 'Oneplus',
+            rating: 4.5,
+            numReviews: 10,
+            description: 'Superfast smartphone with Android 12',
+        },
+    ]
+}
+
+export default allproductdata;

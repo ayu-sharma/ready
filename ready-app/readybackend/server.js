@@ -1,18 +1,19 @@
-const connectToMongo = require('./db');
-const express = require('express')
-const userRoutes = require('./routes/user')
+// const connectToMongo = require('./db');
+import express from 'express'
+// const userRoutes = require('./routes/user')
+import data from './data.js'
 
-connectToMongo();
+// connectToMongo();
 const app = express()
 const port = 4000
 
-// app.get('/', (req, res) => {
-//   res.send('Hello World!')
-// })
+app.get('/api/products', (req, res) => {
+  res.send(data.products)
+})
 
 app.use(express.json())
 
-app.use('/api/user', userRoutes)
+// app.use('/api/user', userRoutes)
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
