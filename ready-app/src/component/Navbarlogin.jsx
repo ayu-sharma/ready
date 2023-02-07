@@ -126,7 +126,7 @@ function Mainnavbar() {
           onClick={handleClick}
           className="font-semibold drop-shadow-md  text-white md:text-center right-0 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br transition duration-200 py-2 md:px-10 rounded-full mt-4 p-8 cursor-pointer"
         >
-          Logout
+          Login
         </p>
       </div>
     </div>

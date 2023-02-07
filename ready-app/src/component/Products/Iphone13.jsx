@@ -32,7 +32,7 @@ const products = [
             category: 'Smartphones',
             image: img5,
             color: 'Black',
-            price: 'Rs. 70999',
+            price: 70999,
             countInStock: 12,
             brand: 'Apple',
             rating: '⭐⭐⭐⭐⭐',
@@ -45,7 +45,7 @@ const products = [
             category: 'Laptops',
             image: img6,
             color: 'Midnight',
-            price: 'Rs. 110999',
+            price: 110999,
             countInStock: 10,
             brand: 'Apple',
             rating: '⭐⭐⭐⭐⭐',
@@ -58,7 +58,7 @@ const products = [
             category: 'Earphones',
             image: img7,
             color: 'White',
-            price: 'Rs. 11999',
+            price: 11999,
             countInStock: 10,
             brand: 'Apple',
             rating: '⭐⭐⭐⭐',
@@ -71,7 +71,7 @@ const products = [
             category: 'Smartphones',
             image: img8,
             color: 'Gold',
-            price: 'Rs. 120999',
+            price: 120999,
             countInStock: 15,
             brand: 'Apple',
             rating: '⭐⭐⭐⭐⭐',
@@ -84,7 +84,7 @@ const products = [
             category: 'Laptops',
             image: img9,
             color: 'Space Gray',
-            price: 'Rs. 210999',
+            price: 210999,
             countInStock: 10,
             brand: 'Apple',
             rating: '⭐⭐⭐⭐⭐',
@@ -97,7 +97,7 @@ const products = [
             category: 'Earphones',
             image: img10,
             color: 'Silver',
-            price: 'Rs. 30999',
+            price: 30999,
             countInStock: 8,
             brand: 'Apple',
             rating: '⭐⭐⭐⭐⭐',
@@ -112,7 +112,7 @@ const products = [
             category: 'Shirt',
             image: img1,
             color: 'Black',
-            price: 'Rs. 999',
+            price: 999,
             countInStock: 20,
             brand: 'H&M',
             rating: '⭐⭐⭐⭐',
@@ -125,7 +125,7 @@ const products = [
             category: 'Shirt',
             image: img11,
             color: 'Black',
-            price: 'Rs. 1099',
+            price: 1099,
             countInStock: 20,
             brand: 'H&M',
             rating: '⭐⭐⭐⭐⭐',
@@ -138,7 +138,7 @@ const products = [
             category: 'Shoes',
             image: img12,
             color: 'Beige',
-            price: 'Rs. 1999',
+            price: 1999,
             countInStock: 20,
             brand: 'H&M',
             rating: '⭐⭐⭐⭐',
@@ -151,7 +151,7 @@ const products = [
             category: 'Shirt',
             image: img13,
             color: 'Red',
-            price: 'Rs. 1199',
+            price: 1199,
             countInStock: 20,
             brand: 'H&M',
             rating: '⭐⭐⭐⭐',
@@ -164,7 +164,7 @@ const products = [
             category: 'Shoes',
             image: img14,
             color: 'White',
-            price: 'Rs. 2199',
+            price: 2199,
             countInStock: 20,
             brand: 'H&M',
             rating: '⭐⭐⭐⭐',
@@ -179,7 +179,7 @@ const products = [
             category: 'Caps',
             image: img2,
             color: 'Black',
-            price: 'Rs. 399',
+            price: 399,
             countInStock: 40,
             brand: 'Nike',
             rating: '⭐⭐⭐⭐⭐',
@@ -192,7 +192,7 @@ const products = [
             category: 'Shoes',
             image: img16,
             color: 'Grey',
-            price: 'Rs. 4999',
+            price: 4999,
             countInStock: 40,
             brand: 'Nike',
             rating: '⭐⭐⭐⭐⭐',
@@ -205,7 +205,7 @@ const products = [
             category: 'Shoes',
             image: img17,
             color: 'Red Swoosh',
-            price: 'Rs. 7999',
+            price: 7999,
             countInStock: 40,
             brand: 'Nike',
             rating: '⭐⭐⭐⭐⭐',
@@ -218,7 +218,7 @@ const products = [
             category: 'Shoes',
             image: img15,
             color: 'Black',
-            price: 'Rs. 3999',
+            price: 3999,
             countInStock: 40,
             brand: 'Nike',
             rating: '⭐⭐⭐⭐⭐',
@@ -233,7 +233,7 @@ const products = [
             category: 'Earphones',
             image: img4,
             color: 'Black',
-            price: 'Rs. 4599',
+            price: 4599,
             countInStock: 25,
             brand: 'Oneplus',
             rating: '⭐⭐⭐⭐',
@@ -246,7 +246,7 @@ const products = [
             category: 'Smartphones',
             image: img18,
             color: 'Frost Green',
-            price: 'Rs. 40999',
+            price: 40999,
             countInStock: 20,
             brand: 'Oneplus',
             rating: '⭐⭐⭐⭐',
@@ -259,7 +259,7 @@ const products = [
             category: 'Earphones',
             image: img19,
             color: 'Black',
-            price: 'Rs. 9999',
+            price: 9999,
             countInStock: 20,
             brand: 'Oneplus',
             rating: '⭐⭐⭐⭐⭐',
@@ -272,7 +272,7 @@ const products = [
             category: 'Smartphones',
             image: img20,
             color: 'Black',
-            price: 'Rs. 18999',
+            price: 18999,
             countInStock: 20,
             brand: 'Oneplus',
             rating: '⭐⭐⭐',
@@ -287,7 +287,7 @@ const products = [
             category: 'Shoes',
             image: img3,
             color: 'Black',
-            price: 'Rs. 2199',
+            price: 2199,
             countInStock: 34,
             brand: 'Puma',
             rating: '⭐⭐⭐⭐',
@@ -300,7 +300,7 @@ const products = [
             category: 'Shoes',
             image: img21,
             color: 'Orange',
-            price: 'Rs. 3399',
+            price: 3399,
             countInStock: 34,
             brand: 'Puma',
             rating: '⭐⭐⭐⭐',
@@ -313,7 +313,7 @@ const products = [
             category: 'Shoes',
             image: img22,
             color: 'Black',
-            price: 'Rs. 2599',
+            price: 2599,
             countInStock: 34,
             brand: 'Puma',
             rating: '⭐⭐⭐⭐',
@@ -326,7 +326,7 @@ const products = [
             category: 'Shirt',
             image: img23,
             color: 'Black',
-            price: 'Rs. 2699',
+            price: 2699,
             countInStock: 34,
             brand: 'Puma',
             rating: '⭐⭐⭐⭐',
@@ -334,7 +334,6 @@ const products = [
             description: 'Track shirt',  
         },
     ]
-
 function Product() {
   const filteredProduct = products.filter(items => {
     return items.name === 'Apple iPhone 13'
@@ -350,7 +349,7 @@ function Product() {
           <div className='lg:flex lg:justify-between my-3'>
             <p className='font-semibold text-lg'>Showing</p>
             <p className='font-medium text-lg text-[#8f0fff]'>{product.name}</p>
-            <p className='text-lg'>Price <b>{product.price}</b></p>
+            <p className='text-lg'>Price <b>Rs.{product.price}</b></p>
             <p className='font-medium text-lg text-[#8f0fff]'>Delivery in 1 hr</p>            
             <p className='font-medium text-lg'>{product.rating} {product.numReviews}</p>
           </div>
@@ -371,7 +370,7 @@ function Product() {
           <div className='bg-white p-5 mx-auto rounded-xl mb-4'>
             <div className='flex justify-between'>
               <h1 className='text-[#8f0fff] font-semibold text-xl'>{product.name}</h1>
-              <h1 className='font-medium text-xl'>{product.price}</h1>
+              <h1 className='font-medium text-xl'>Rs.{product.price}</h1>
             </div>
             <div className='my-2'>
               <p className='font-medium'>{product.color}</p>
